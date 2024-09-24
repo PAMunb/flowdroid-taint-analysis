@@ -27,8 +27,8 @@ public class ConfigForTest implements IInfoflowConfig {
 		includeList.add("java.io.*");
 		includeList.add("sun.misc.*");
 		includeList.add("java.net.*");
-		includeList.add("javax.servlet.*");
-		includeList.add("javax.crypto.*");
+		includeList.add("jakarta.servlet.*");
+		// includeList.add("javax.crypto.*");
 
 		includeList.add("android.*");
 		includeList.add("org.apache.http.*");
@@ -41,7 +41,6 @@ public class ConfigForTest implements IInfoflowConfig {
 		Options.v().set_no_bodies_for_excluded(true);
 		Options.v().set_allow_phantom_refs(true);
 		options.set_include(includeList);
-		options.set_output_format(Options.output_format_none);
 		Options.v().setPhaseOption("jb", "use-original-names:true");
 		// Options.v().setPhaseOption("cg.spark", "string-constants:true");
 		Options.v().set_ignore_classpath_errors(true);
