@@ -68,4 +68,3 @@ Summary
 
    * Rodrigo Bonifácio
    * José Vicente
-   * Bruno Berto de Oliveira Ribeiro 
