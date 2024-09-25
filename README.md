@@ -31,7 +31,7 @@ Summary
 
 ## TEST
 
-###### failed: 33, passed: 71, ignored: 0 of 104 test (68.27%)
+###### failed: 13, passed: 91, ignored: 0 of 104 test (87.5%)
 
 - **AliasingTest** - failed: 1, passed: 5, ignored: 0 of 6 test `(83.33%)`
   - [3]
