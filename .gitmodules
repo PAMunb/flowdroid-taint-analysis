@@ -1,0 +1,3 @@
+[submodule "src/main/java/securibench"]
+	path = src/main/java/securibench
+	url = https://github.com/PAMunb/securibench-micro-jakarta.git
