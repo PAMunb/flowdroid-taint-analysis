@@ -10,6 +10,8 @@ Specific test file: `mvn test -Dtest=BasicTests`
 
 Specific test: `mvn test -Dtest=BasicTests#basic34`
 
+<!-- git submodule update --remote --merge -->
+
 ### Status
 
 Currently, out of 104 unit tests, 13 are broken.
