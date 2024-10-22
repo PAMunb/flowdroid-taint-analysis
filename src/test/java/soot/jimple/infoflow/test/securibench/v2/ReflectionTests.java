@@ -8,7 +8,7 @@
  * Contributors: Christian Fritz, Steven Arzt, Siegfried Rasthofer, Eric
  * Bodden, and others.
  ******************************************************************************/
-package soot.jimple.infoflow.test.securibench;
+package soot.jimple.infoflow.test.securibench.v2;
 
 
 public class ReflectionTests extends JUnitTests {
@@ -16,7 +16,7 @@ public class ReflectionTests extends JUnitTests {
 //	public void refl1() {
 //	Infoflow infoflow = initInfoflow();
 //	List<String> epoints = new ArrayList<String>();
-//	epoints.add("<securibench.micro.reflection.Refl1: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>");
+//	epoints.add("<securibench.v2.microreflection.Refl1: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>");
 //	infoflow.computeInfoflow(path, entryPointCreator, epoints, sources, sinks);
 //	checkInfoflow(infoflow);
 //	}
@@ -25,7 +25,7 @@ public class ReflectionTests extends JUnitTests {
 //	public void refl2() {
 //	Infoflow infoflow = initInfoflow();
 //	List<String> epoints = new ArrayList<String>();
-//	epoints.add("<securibench.micro.reflection.Refl2: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>");
+//	epoints.add("<securibench.v2.microreflection.Refl2: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>");
 //	infoflow.computeInfoflow(path, entryPointCreator, epoints, sources, sinks);
 //	checkInfoflow(infoflow);
 //	}
@@ -34,7 +34,7 @@ public class ReflectionTests extends JUnitTests {
 //	public void refl3() {
 //	Infoflow infoflow = initInfoflow();
 //	List<String> epoints = new ArrayList<String>();
-//	epoints.add("<securibench.micro.reflection.Refl3: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>");
+//	epoints.add("<securibench.v2.microreflection.Refl3: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>");
 //	infoflow.computeInfoflow(path, entryPointCreator, epoints, sources, sinks);
 //	checkInfoflow(infoflow);
 //	}
@@ -43,7 +43,7 @@ public class ReflectionTests extends JUnitTests {
 //	public void refl4() {
 //	Infoflow infoflow = initInfoflow();
 //	List<String> epoints = new ArrayList<String>();
-//	epoints.add("<securibench.micro.reflection.Refl4: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>");
+//	epoints.add("<securibench.v2.microreflection.Refl4: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>");
 //	infoflow.computeInfoflow(path, entryPointCreator, epoints, sources, sinks);
 //	checkInfoflow(infoflow);
 //	}

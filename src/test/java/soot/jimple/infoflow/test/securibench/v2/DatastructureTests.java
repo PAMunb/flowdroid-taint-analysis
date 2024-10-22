@@ -8,7 +8,7 @@
  * Contributors: Christian Fritz, Steven Arzt, Siegfried Rasthofer, Eric
  * Bodden, and others.
  ******************************************************************************/
-package soot.jimple.infoflow.test.securibench;
+package soot.jimple.infoflow.test.securibench.v2;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +23,7 @@ public class DatastructureTests extends JUnitTests {
 	public void datastructures1() {
 		List<String> epoints = new ArrayList<String>();
 		epoints.add(
-				"<securibench.micro.datastructures.Datastructures1: void doGet(jakarta.servlet.http.HttpServletRequest,jakarta.servlet.http.HttpServletResponse)>");
+				"<securibench.v2.micro.datastructures.Datastructures1: void doGet(jakarta.servlet.http.HttpServletRequest,jakarta.servlet.http.HttpServletResponse)>");
 		IInfoflow infoflow = initInfoflow(epoints);
 		infoflow.computeInfoflow(appPath, libPath, entryPointCreator, sources, sinks);
 		checkInfoflow(infoflow, 1);
@@ -33,7 +33,7 @@ public class DatastructureTests extends JUnitTests {
 	public void datastructures2() {
 		List<String> epoints = new ArrayList<String>();
 		epoints.add(
-				"<securibench.micro.datastructures.Datastructures2: void doGet(jakarta.servlet.http.HttpServletRequest,jakarta.servlet.http.HttpServletResponse)>");
+				"<securibench.v2.micro.datastructures.Datastructures2: void doGet(jakarta.servlet.http.HttpServletRequest,jakarta.servlet.http.HttpServletResponse)>");
 		IInfoflow infoflow = initInfoflow(epoints);
 		infoflow.computeInfoflow(appPath, libPath, entryPointCreator, sources, sinks);
 		checkInfoflow(infoflow, 1);
@@ -43,7 +43,7 @@ public class DatastructureTests extends JUnitTests {
 	public void datastructures3() {
 		List<String> epoints = new ArrayList<String>();
 		epoints.add(
-				"<securibench.micro.datastructures.Datastructures3: void doGet(jakarta.servlet.http.HttpServletRequest,jakarta.servlet.http.HttpServletResponse)>");
+				"<securibench.v2.micro.datastructures.Datastructures3: void doGet(jakarta.servlet.http.HttpServletRequest,jakarta.servlet.http.HttpServletResponse)>");
 		IInfoflow infoflow = initInfoflow(epoints);
 		infoflow.computeInfoflow(appPath, libPath, entryPointCreator, sources, sinks);
 		checkInfoflow(infoflow, 1);
@@ -53,7 +53,7 @@ public class DatastructureTests extends JUnitTests {
 	public void datastructures4() {
 		List<String> epoints = new ArrayList<String>();
 		epoints.add(
-				"<securibench.micro.datastructures.Datastructures4: void doGet(jakarta.servlet.http.HttpServletRequest,jakarta.servlet.http.HttpServletResponse)>");
+				"<securibench.v2.micro.datastructures.Datastructures4: void doGet(jakarta.servlet.http.HttpServletRequest,jakarta.servlet.http.HttpServletResponse)>");
 		IInfoflow infoflow = initInfoflow(epoints);
 		infoflow.computeInfoflow(appPath, libPath, entryPointCreator, sources, sinks);
 		negativeCheckInfoflow(infoflow);
@@ -63,7 +63,7 @@ public class DatastructureTests extends JUnitTests {
 	public void datastructures5() {
 		List<String> epoints = new ArrayList<String>();
 		epoints.add(
-				"<securibench.micro.datastructures.Datastructures5: void doGet(jakarta.servlet.http.HttpServletRequest,jakarta.servlet.http.HttpServletResponse)>");
+				"<securibench.v2.micro.datastructures.Datastructures5: void doGet(jakarta.servlet.http.HttpServletRequest,jakarta.servlet.http.HttpServletResponse)>");
 		IInfoflow infoflow = initInfoflow(epoints);
 		infoflow.computeInfoflow(appPath, libPath, entryPointCreator, sources, sinks);
 		checkInfoflow(infoflow, 1);
@@ -73,7 +73,7 @@ public class DatastructureTests extends JUnitTests {
 	public void datastructures6() {
 		List<String> epoints = new ArrayList<String>();
 		epoints.add(
-				"<securibench.micro.datastructures.Datastructures6: void doGet(jakarta.servlet.http.HttpServletRequest,jakarta.servlet.http.HttpServletResponse)>");
+				"<securibench.v2.micro.datastructures.Datastructures6: void doGet(jakarta.servlet.http.HttpServletRequest,jakarta.servlet.http.HttpServletResponse)>");
 		IInfoflow infoflow = initInfoflow(epoints);
 		infoflow.computeInfoflow(appPath, libPath, entryPointCreator, sources, sinks);
 		checkInfoflow(infoflow, 1);

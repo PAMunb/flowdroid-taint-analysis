@@ -8,7 +8,7 @@
  * Contributors: Christian Fritz, Steven Arzt, Siegfried Rasthofer, Eric
  * Bodden, and others.
  ******************************************************************************/
-package soot.jimple.infoflow.test.securibench;
+package soot.jimple.infoflow.test.securibench.v2;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
