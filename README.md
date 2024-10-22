@@ -9,7 +9,7 @@ All test: `mvn compile test`
 ## v1
 ```
 mvn test -Dtest=AliasingV1Tests
-mvn test -Dtest=AliasingV2Tests
+mvn test -Dtest=ArrayV1Tests
 ```
 
 ## v2
