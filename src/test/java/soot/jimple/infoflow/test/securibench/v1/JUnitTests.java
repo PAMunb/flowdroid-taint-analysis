@@ -88,6 +88,7 @@ public abstract class JUnitTests {
 		File f = new File(".");
 		appPath = f.getCanonicalPath() + File.separator + "target" + File.separator + "classes" + File.pathSeparator + f.getCanonicalPath()
 				+ File.separator + "target" + File.separator + "test-classes";
+		//TO-DO: improve the logic here
 		libPath = "/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar" //System.getProperty("java.home") + File.separator + "lib" + File.separator + "rt.jar"
 				+ File.pathSeparator + f.getCanonicalPath() + File.separator + "lib" + File.separator + "j2ee.jar"
 				+ File.pathSeparator + f.getCanonicalPath() + File.separator + "lib" + File.separator + "cos.jar";
