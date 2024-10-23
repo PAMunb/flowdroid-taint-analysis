@@ -81,10 +81,23 @@ Summary
 **BasicTest**
 | v1 `(%)`                                                | v2 `(93.02%)`                                     |
 | :---:                                                   | :---:                                             |
-| **Tests run: 42, Failures: 16, Errors: 0, Skipped: 0**  | **failed: 3, passed: 40, ignored: 0 of 43 test**  |
-|                                                         |  [29]                                             |
-|                                                         |  [31]                                             |
-|                                                         |  [36]                                             |
+| **failed: 16, passed: 26, ignored: 0 of 42 test**       | **failed: 3, passed: 40, ignored: 0 of 42 test**  |
+| [3]                                                     |  [29]                                             |
+| [5]                                                     |  [31]                                             |
+| [6]                                                     |  [36]                                             |
+| [7]                                                     |                                                   |
+| [11]                                                    |                                                   |
+| [21]                                                    |                                                   |
+| [22]                                                    |                                                   |
+| [23]                                                    |                                                   |
+| [24]                                                    |                                                   |
+| [25]                                                    |                                                   |
+| [26]                                                    |                                                   |
+| [29]                                                    |                                                   |
+| [31]                                                    |                                                   |
+| [33]                                                    |                                                   |
+| [34]                                                    |                                                   |
+| [36]                                                    |                                                   |
 
 **CollectionTest**
 | v1 `(85.71%)`                                           | v2 `(85.71%)`                                     |
@@ -97,14 +110,18 @@ Summary
 **DataStructureTest**
 | v1 `(%)`                                        | v2 `(100%)`                                     |
 | :---:                                           | :---:                                           |
-| ****                                            | **failed: 0, passed: 6, ignored: 0 of 6 test**  |
-|                                                 |                                                 |   
+| **failed: 2, passed: 4, ignored: 0 of 6 test**  | **failed: 0, passed: 6, ignored: 0 of 6 test**  |
+|  [1]                                            |                                                 |
+|  [5]                                            |                                                 |
+
 
 **FactoryTest**
 | v1 `(%)`                                        | v2 `(100%)`                                     |
 | :---:                                           | :---:                                           |
-| ****                                            | **failed: 0, passed: 3, ignored: 0 of 3 test**  |
-|                                                 |                                                 |  
+| **failed: 2, passed: 1, ignored: 0 of 3 test**  | **failed: 0, passed: 3, ignored: 0 of 3 test**  |
+|  [1]                                            |                                                 |
+|  [2]                                            |                                                 |
+
 
 **InterTest**
 | v1 `(92.86%)`                                          | v2 `(92.86%)`                                     |
@@ -114,17 +131,19 @@ Summary
 
 
 - **SessionTest**
-| v1 `(%)`                                        | v2 `(66.67%)`                                   |
+| v1 `(0%)`                                        | v2 `(66.67%)`                                   |
 | :---:                                           | :---:                                           |
-| ****                                            | **failed: 1, passed: 2, ignored: 0 of 3 test**  |
-|                                                 |   [2]                                           |    
+| **failed: 3, passed: 0, ignored: 0 of 3 test**  | **failed: 1, passed: 2, ignored: 0 of 3 test**  |
+| [1]                                             |   [2]                                           | 
+| [2]                                             |                                                 |
+| [3]                                             |                                                 |  
 
 
 **StrongUpdateTest**
 | v1 `(%)`                                        | v2 `(80%)`                                      |
 | :---:                                           | :---:                                           |
 | **failed: 1, passed: 4, ignored: 0 of 5 test**  | **failed: 1, passed: 4, ignored: 0 of 5 test**  |
-|  [4]                                            |  [4]                                            |  
+|  [4]                                            |  [4]                                            |
 
 
 ### Authors
