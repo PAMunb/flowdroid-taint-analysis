@@ -18,7 +18,7 @@ import org.junit.Test;
 import soot.jimple.infoflow.IInfoflow;
 import soot.jimple.infoflow.InfoflowConfiguration.StaticFieldTrackingMode;
 
-public class BasicTests extends JUnitTests {
+public class BasicV2Tests extends JUnitTests {
 
 	/**
 	 * custom test to check whether there is an edge to string methods or not on

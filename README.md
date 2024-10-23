@@ -10,6 +10,7 @@ All test: `mvn compile test`
 ```
 mvn test -Dtest=AliasingV1Tests
 mvn test -Dtest=ArrayV1Tests
+mvn test -Dtest=BasicV2Tests
 ```
 
 ## v2
@@ -64,14 +65,13 @@ Summary
 |  [10]                                           |  [10]                                           |
 
 
-- **BasicTest** - failed: 3, passed: 40, ignored: 0 of 43 test `(93.02%)`
-  - [29]
-  - [31]
-  - [36]
-| v1 `(%)`                                        | v2 `(%)`                                  |
-| :---:                                           | :---:                                     |
-| ****                                            | ****                                      |
-|                                                 |                                           |   
+**BasicTest**
+| v1 `(%)`                                        | v2 `(93.02%)`                                     |
+| :---:                                           | :---:                                             |
+| ****                                            | **failed: 3, passed: 40, ignored: 0 of 43 test**  |
+|                                                 |  [29]                                             |
+|                                                 |  [31]                                             |
+|                                                 |  [36]                                             |
 
 - **CollectionTest** - failed: 2, passed: 12, ignored: 0 of 14 test `(85.71%)`
   - [6]
@@ -116,7 +116,7 @@ Summary
 | :---:                                           | :---:                                     |
 | ****                                            | ****                                      |
 |                                                 |                                           |  
- 
+
 
 ### Authors
 
