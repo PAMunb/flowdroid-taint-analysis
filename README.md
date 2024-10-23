@@ -58,7 +58,8 @@ Summary
 
 ## TEST
 
-###### failed: 13, passed: 91, ignored: 0 of 104 test (87.5%)
+###### V1: failed: 33, passed: 70, ignored: 0 of 103 test (87.5%)
+###### V2: failed: 13, passed: 90, ignored: 0 of 103 test (87.5%)
 
 **AliasingTest**
 | v1 `(%)`                                        | v2 `(83.33%)`                                  |
