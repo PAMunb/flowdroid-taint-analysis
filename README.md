@@ -131,7 +131,7 @@ Summary
 
 
 - **SessionTest**
-| v1 `(0%)`                                        | v2 `(66.67%)`                                   |
+| v1 `(0%)`                                       | v2 `(66.67%)`                                   |
 | :---:                                           | :---:                                           |
 | **failed: 3, passed: 0, ignored: 0 of 3 test**  | **failed: 1, passed: 2, ignored: 0 of 3 test**  |
 | [1]                                             |   [2]                                           | 
