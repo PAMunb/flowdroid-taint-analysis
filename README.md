@@ -15,6 +15,7 @@ mvn test -Dtest=CollectionV1Tests
 mvn test -Dtest=DatastructureV1Tests
 mvn test -Dtest=FactoryV1Tests
 mvn test -Dtest=InterV1Tests
+mvn test -Dtest=SessionV1Tests
 ```
 
 ## v2
