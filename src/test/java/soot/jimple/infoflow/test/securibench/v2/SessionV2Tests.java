@@ -17,7 +17,7 @@ import org.junit.Test;
 
 import soot.jimple.infoflow.IInfoflow;
 
-public class SessionTests extends JUnitTests {
+public class SessionV2Tests extends JUnitTests {
 	@Test
 	public void session1() {
 		List<String> epoints = new ArrayList<String>();
