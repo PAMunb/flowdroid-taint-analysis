@@ -20,6 +20,7 @@ mvn test -Dtest=AliasingV2Tests
 mvn test -Dtest=ArrayV2Tests
 mvn test -Dtest=BasicV2Tests
 mvn test -Dtest=CollectionV2Tests
+mvn test -Dtest=DatastructureTests
 ```
 
 Specific test: `mvn test -Dtest=AliasingTests#aliasing1`
@@ -77,9 +78,9 @@ Summary
 |                                                         |  [36]                                             |
 
 **CollectionTest**
-| v1 `(%)`                                                | v2 `(85.71%)`                                          |
+| v1 `(85.71%)`                                           | v2 `(85.71%)`                                     |
 | :---:                                                   | :---:                                             |
-| ****                                                    | **failed: 2, passed: 12, ignored: 0 of 14 test**  |
+| **failed: 2, passed: 12, ignored: 0 of 14 test**        | **failed: 2, passed: 12, ignored: 0 of 14 test**  |
 |  [6]                                                    |  [6]                                              |
 |  [8]                                                    |  [8]                                              | 
 
