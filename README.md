@@ -11,6 +11,7 @@ All test: `mvn compile test`
 mvn test -Dtest=AliasingV1Tests
 mvn test -Dtest=ArrayV1Tests
 mvn test -Dtest=BasicV1Tests
+mvn test -Dtest=CollectionV1Tests
 ```
 
 ## v2
@@ -79,8 +80,8 @@ Summary
 | v1 `(%)`                                                | v2 `(85.71%)`                                          |
 | :---:                                                   | :---:                                             |
 | ****                                                    | **failed: 2, passed: 12, ignored: 0 of 14 test**  |
-|                                                         |  [6]                                              |
-|                                                         |  [8]                                              | 
+|  [6]                                                    |  [6]                                              |
+|  [8]                                                    |  [8]                                              | 
 
 
 - **DataStructureTest** - failed: 0, passed: 6, ignored: 0 of 6 test `(100%)`
