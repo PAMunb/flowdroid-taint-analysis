@@ -13,6 +13,7 @@ mvn test -Dtest=ArrayV1Tests
 mvn test -Dtest=BasicV1Tests
 mvn test -Dtest=CollectionV1Tests
 mvn test -Dtest=DatastructureV1Tests
+mvn test -Dtest=FactoryV1Tests
 ```
 
 ## v2
