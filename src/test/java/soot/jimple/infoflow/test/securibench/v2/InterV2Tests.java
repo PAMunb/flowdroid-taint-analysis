@@ -17,7 +17,7 @@ import org.junit.Test;
 
 import soot.jimple.infoflow.IInfoflow;
 
-public class InterTests extends JUnitTests {
+public class InterV2Tests extends JUnitTests {
 	@Test
 	public void inter1() {
 		List<String> epoints = new ArrayList<String>();

@@ -24,6 +24,7 @@ mvn test -Dtest=BasicV2Tests
 mvn test -Dtest=CollectionV2Tests
 mvn test -Dtest=DatastructureV2Tests
 mvn test -Dtest=FactoryV2Tests
+mvn test -Dtest=InterV2Tests
 ```
 
 Specific test: `mvn test -Dtest=AliasingTests#aliasing1`
@@ -100,12 +101,11 @@ Summary
 | ****                                            | **failed: 0, passed: 3, ignored: 0 of 3 test**  |
 |                                                 |                                                 |  
 
-- **InterTest** - failed: 1, passed: 13, ignored: 0 of 14 test `(92.86%)`
-  - [6]
-| v1 `(%)`                                        | v2 `(%)`                                  |
-| :---:                                           | :---:                                     |
-| ****                                            | ****                                      |
-|                                                 |                                           |   
+**InterTest**
+| v1 `(%)`                                        | v2 `(92.86%)`                                     |
+| :---:                                           | :---:                                             |
+| ****                                            | **failed: 1, passed: 13, ignored: 0 of 14 test**  |
+|                                                 |   [6]                                             |   
 
 
 - **SessionTest** - failed: 1, passed: 2, ignored: 0 of 3 test `(66.67%)`
