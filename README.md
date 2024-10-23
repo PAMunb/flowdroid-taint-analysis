@@ -16,6 +16,7 @@ mvn test -Dtest=DatastructureV1Tests
 mvn test -Dtest=FactoryV1Tests
 mvn test -Dtest=InterV1Tests
 mvn test -Dtest=SessionV1Tests
+mvn test -Dtest=StrongUpdateV1Tests
 ```
 
 ## v2
@@ -122,8 +123,8 @@ Summary
 **StrongUpdateTest**
 | v1 `(%)`                                        | v2 `(80%)`                                      |
 | :---:                                           | :---:                                           |
-| ****                                            | **failed: 1, passed: 4, ignored: 0 of 5 test**  |
-|                                                 |  [4]                                            |  
+| **failed: 1, passed: 4, ignored: 0 of 5 test**  | **failed: 1, passed: 4, ignored: 0 of 5 test**  |
+|  [4]                                            |  [4]                                            |  
 
 
 ### Authors
