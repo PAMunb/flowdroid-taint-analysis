@@ -402,7 +402,6 @@ public class BasicV1Tests extends JUnitTests {
 				"<securibench.v1.micro.basic.Basic34: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>");
 		Infoflow infoflow = initInfoflow(epoints);
 		infoflow.getConfig().setStaticFieldTrackingMode(StaticFieldTrackingMode.None);
-		// System.out.println("sources" + sources);
 		infoflow.computeInfoflow(appPath, libPath, entryPointCreator, sources, sinks);
 		checkInfoflow(infoflow, 2);
 	}
