@@ -17,7 +17,7 @@ import org.junit.Test;
 
 import soot.jimple.infoflow.IInfoflow;
 
-public class DatastructureV1Tests extends JUnitTests {
+public class DatastructureV2Tests extends JUnitTests {
 
 	@Test
 	public void datastructures1() {
