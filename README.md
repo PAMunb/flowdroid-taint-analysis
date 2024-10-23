@@ -14,6 +14,7 @@ mvn test -Dtest=BasicV1Tests
 mvn test -Dtest=CollectionV1Tests
 mvn test -Dtest=DatastructureV1Tests
 mvn test -Dtest=FactoryV1Tests
+mvn test -Dtest=InterV1Tests
 ```
 
 ## v2
@@ -102,10 +103,10 @@ Summary
 |                                                 |                                                 |  
 
 **InterTest**
-| v1 `(%)`                                        | v2 `(92.86%)`                                     |
-| :---:                                           | :---:                                             |
-| ****                                            | **failed: 1, passed: 13, ignored: 0 of 14 test**  |
-|                                                 |   [6]                                             |   
+| v1 `(92.86%)`                                          | v2 `(92.86%)`                                     |
+| :---:                                             | :---:                                             |
+| **failed: 1, passed: 13, ignored: 0 of 14 test**  | **failed: 1, passed: 13, ignored: 0 of 14 test**  |
+|  [6]                                              |   [6]                                             |   
 
 
 - **SessionTest** - failed: 1, passed: 2, ignored: 0 of 3 test `(66.67%)`
