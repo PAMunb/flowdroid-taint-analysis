@@ -54,16 +54,15 @@ Summary
 |  [4]                                            |                                                |
 
 
-- **ArraysTest** - failed: 4, passed: 6, ignored: 0 of 10 test `(60%)`
-  - [2]
-  - [5]
-  - [8]
-  - [10]
-| v1 `(%)`                                        | v2 `(%)`                                  |
-| :---:                                           | :---:                                     |
-| ****  | **** |
-|                                                 |                                           |
-|                                                 |                                           |   
+**ArraysTest**
+| v1 `(60%)`                                      | v2 `(60%)`                                      |
+| :---:                                           | :---:                                           |
+| **failed: 4, passed: 6, ignored: 0 of 10 test** | **failed: 4, passed: 6, ignored: 0 of 10 test** |
+|  [2]                                            |  [2]                                            |
+|  [5]                                            |  [5]                                            |
+|  [8]                                            |  [8]                                            |
+|  [10]                                           |  [10]                                           |
+
 
 - **BasicTest** - failed: 3, passed: 40, ignored: 0 of 43 test `(93.02%)`
   - [29]
