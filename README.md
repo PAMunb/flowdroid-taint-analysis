@@ -118,7 +118,7 @@ Summary
 
 
 **FactoryTest**
-| v1 `(%)`                                        | v2 `(100%)`                                     |
+| v1 `(0%)`                                       | v2 `(100%)`                                     |
 | :---:                                           | :---:                                           |
 | **failed: 2, passed: 1, ignored: 0 of 3 test**  | **failed: 0, passed: 3, ignored: 0 of 3 test**  |
 |  [1]                                            |                                                 |
