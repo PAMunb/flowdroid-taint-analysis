@@ -1,12 +1,31 @@
-# SecuriBench
+# FLOWDROID Taint Analysis + SecuriBench
 
-This is a fork from the `securibench` component of FlowDroid.
+The goals of this repository is to perfom Taint Analysis using the tool FLOWDROID
 
-### Execute the Benchmark
+
+<!-- This is a fork from the `securibench` component of FlowDroid. -->
+
+- **V1:** failed: 33, passed: 70, ignored: 0 of 103 test `(67.96%)`
+- **V2:** failed: 13, passed: 90, ignored: 0 of 103 test `(87.38%)`
+
+## SETUP
+
+Clone the "benchmark" as a submodule
+```
+git submodule add https://github.com/PAMunb/securibench-micro.git src/main/java/securibench
+```
+
+## TEST
+
+### Run
 
 All test: `mvn compile test`
 
-## v1
+Specific test: `mvn test -Dtest=AliasingTests#aliasing1`
+
+Specific group of test:
+
+<!-- ## v1
 ```
 mvn test -Dtest=AliasingV1Tests
 mvn test -Dtest=ArrayV1Tests
@@ -29,37 +48,16 @@ mvn test -Dtest=DatastructureV2Tests
 mvn test -Dtest=FactoryV2Tests
 mvn test -Dtest=InterV2Tests
 mvn test -Dtest=SessionV2Tests
-mvn test -Dtest=StrongUpdateV2Tests
+mvn test -Dtest=StrongUpdateV2Tests 
 ```
+-->
 
-Specific test: `mvn test -Dtest=AliasingTests#aliasing1`
+### Result
 
+- **V1:** failed: 33, passed: 70, ignored: 0 of 103 test `(67.96%)`
+- **V2:** failed: 13, passed: 90, ignored: 0 of 103 test `(87.38%)`
 
-git submodule add https://github.com/PAMunb/securibench-micro.git src/main/java/securibench
-
-### Status
-
-Currently, out of 104 unit tests, 13 are broken.
-
-
-Summary
-
-```
-[INFO] 
-[ERROR] Tests run: 104, Failures: 13, Errors: 1, Skipped: 0
-[INFO] 
-[INFO] ------------------------------------------------------------------------
-[INFO] BUILD FAILURE
-[INFO] ------------------------------------------------------------------------
-[INFO] Total time:  01:27 min
-[INFO] Finished at: 2024-09-25T00:50:12Z
-[INFO] ------------------------------------------------------------------------
-```
-
-## TEST
-
-###### V1: failed: 33, passed: 70, ignored: 0 of 103 test (67.96%)
-###### V2: failed: 13, passed: 90, ignored: 0 of 103 test (87.38%)
+### Comparison
 
 **AliasingTest**
 | v1 `(66.67%)`                                   | v2 `(83.33%)`                                  |
