@@ -28,6 +28,7 @@ public class ConfigForTest implements IInfoflowConfig {
 		includeList.add("sun.misc.*");
 		includeList.add("java.net.*");
 		includeList.add("jakarta.servlet.*");
+		includeList.add("javax.servlet.*");
 		// includeList.add("javax.crypto.*");
 
 		includeList.add("android.*");

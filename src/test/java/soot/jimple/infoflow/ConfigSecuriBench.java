@@ -32,6 +32,7 @@ public class ConfigSecuriBench implements IInfoflowConfig {
 		includeList.add("soot.*");
 		includeList.add("securibench.*");
 		includeList.add("javax.servlet.*");
+		includeList.add("jakarta.servlet.*");
 		includeList.add("com.oreilly.servlet.*");
 		// includeList.add("java.security.");
 		// includeList.add("javax.crypto.");
