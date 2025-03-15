@@ -35,7 +35,7 @@
 |   Aliasing4    |    2     |   2    |   ✅    | 2  | 0  |     -     |   -    |    -    |
 |   Aliasing5    |    1     |   1    |   ✅    | 1  | 0  |     -     |   -    |    -    |
 |   Aliasing6    |    7     |   7    |   ✅    | 7  | 0  |     -     |   -    |    -    |
-|     TOTAL      |    11    |   12   |  5/6   | 11 | 1  |     -     |   -    |    -    |
+|     TOTAL      |    11    |   12   |  5/6   | 11 | 1  |   0.92    |   1    |  0.96   |
 
 - **ArraysTest** - failed: 4, passed: 6, ignored: 0 of 10 test.
 
@@ -51,7 +51,7 @@
 |     Array8     |    1     |   2    |   ❌    | 1  | 1  |     -     |   -    |    -    |
 |     Array9     |    1     |   1    |   ✅    | 1  | 0  |     -     |   -    |    -    |
 |    Array10     |    1     |   2    |   ❌    | 1  | 1  |     -     |   -    |    -    |
-|     TOTAL      |    9     |   14   |  6/10  | 9  | 5  |     -     |   -    |    -    |
+|     TOTAL      |    9     |   14   |  6/10  | 9  | 5  |   0.64    |   1    |  0.78   |
 
 
 - **BasicTest** - failed: 3, passed: 38, ignored: 0 of 41 test.
@@ -100,7 +100,7 @@
 |    Basic40     |   N/A    |  N/A   |  N/A   | N/A | N/A |    N/A    |  N/A   |   N/A   |
 |    Basic41     |    1     |   1    |   ✅    |  1  |  0  |     -     |   -    |    -    |
 |    Basic42     |    1     |   1    |   ✅    |  1  |  0  |     -     |   -    |    -    |
-|     TOTAL      |    59    |   56   | 38/41  | 55  |  1  |     -     |   -    |    -    |
+|     TOTAL      |    59    |   56   | 38/41  | 55  |  1  |   0.98    |  0.93  |  0.96   |
 
 
 - **CollectionTest** - failed: 2, passed: 12, ignored: 0 of 14 tests.
@@ -121,7 +121,7 @@
 |  Collection12  |    1     |   1    |   ✅    | 1  | 0  |     -     |   -    |    -    |
 |  Collection13  |    1     |   1    |   ✅    | 1  | 0  |     -     |   -    |    -    |
 |  Collection14  |    1     |   1    |   ✅    | 1  | 0  |     -     |   -    |    -    |
-|     TOTAL      |    14    |   14   | 12/14  | 13 | 1  |     -     |   -    |    -    |
+|     TOTAL      |    14    |   14   | 12/14  | 13 | 1  |   0.93    |  0.93  |  0.93   |
 
 
 - **DataStructureTest** - failed: 0, passed: 6, ignored: 0 of 6 tests.
@@ -144,7 +144,7 @@
 |    Factory1    |    1     |   1    |   ✅    | 1  |  0  |     -     |   -    |    -    |
 |    Factory2    |    1     |   1    |   ✅    | 1  |  0  |     -     |   -    |    -    |
 |    Factory3    |    1     |   1    |   ✅    | 1  |  0  |     -     |   -    |    -    |
-|     TOTAL      |    3     |   3    |  3/3   | 3  |  0  |     -     |   -    |    -    |
+|     TOTAL      |    3     |   3    |  3/3   | 3  |  0  |     1     |   1    |    1    |
 
 
 - **InterTest** - failed: 1, passed: 13, ignored: 0 of 14 tests
@@ -165,7 +165,7 @@
 |    Inter12     |    1     |   1    |   ✅    | 1  |  0  |     -     |   -    |    -    |
 |    Inter13     |    1     |   1    |   ✅    | 1  |  0  |     -     |   -    |    -    |
 |    Inter14     |    1     |   1    |   ✅    | 1  |  0  |     -     |   -    |    -    |
-|     TOTAL      |    16    |   15   | 13/14  | 15 |  0  |     -     |   -    |    -    |
+|     TOTAL      |    16    |   15   | 13/14  | 15 |  0  |     1     |  0.94  |  0.97   |
 
 
 - **SessionTest** - failed: 0, passed: 3, ignored: 0 of 3 tests.
@@ -175,7 +175,7 @@
 |    Session1    |    1     |   1    |   ✅    | 1  |  0  |     -     |   -    |    -    |
 |    Session2    |    1     |   1    |   ✅    | 1  |  0  |     -     |   -    |    -    |
 |    Session3    |    1     |   1    |   ✅    | 1  |  0  |     -     |   -    |    -    |
-|     TOTAL      |    3     |   3    |  0/3   | 3  |  0  |     -     |   -    |    -    |
+|     TOTAL      |    3     |   3    |  0/3   | 3  |  0  |     1     |   1    |    1    |
 
 
 - **StrongUpdateTest** - failed: 1, passed: 4, ignored: 0 of 5 tests.
@@ -187,4 +187,4 @@
 | StrongUpdate3  |    0     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
 | StrongUpdate4  |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 | StrongUpdate5  |    0     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|     TOTAL      |    1     |   0    |  4/5   |  0  |  0  |     -     |   -    |    -    |
+|     TOTAL      |    1     |   0    |  4/5   |  0  |  0  |     0     |   0    |    0    |
