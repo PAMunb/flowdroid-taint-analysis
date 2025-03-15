@@ -112,14 +112,14 @@
 |     TOTAL      |    5     |   5    |  6/6   | 5  |  0  |     1     |   1    |    1    |
 
 
-- **FactoryTest** - failed: 0, passed: 0, ignored: 0 of 3 tests.
+- **FactoryTest** - failed: 0, passed: 3, ignored: 0 of 3 tests.
 
-|      Test      | Expected | Actual | Status | TP  | FP  | Precision | Recall | F-score |
-|:--------------:|:--------:|:------:|:------:|:---:|:---:|:---------:|:------:|:-------:|
-|    Factory1    |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|    Factory2    |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|    Factory3    |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|     TOTAL      |    3     |   0    |  0/3   |  0  |  0  |     -     |   -    |    -    |
+|      Test      | Expected | Actual | Status | TP | FP  | Precision | Recall | F-score |
+|:--------------:|:--------:|:------:|:------:|:--:|:---:|:---------:|:------:|:-------:|
+|    Factory1    |    1     |   1    |   ✅    | 1  |  0  |     -     |   -    |    -    |
+|    Factory2    |    1     |   1    |   ✅    | 1  |  0  |     -     |   -    |    -    |
+|    Factory3    |    1     |   1    |   ✅    | 1  |  0  |     -     |   -    |    -    |
+|     TOTAL      |    3     |   3    |  3/3   | 3  |  0  |     -     |   -    |    -    |
 
 
 - **InterTest** - failed: 0, passed: 0, ignored: 0 of 14 tests
