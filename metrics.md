@@ -2,25 +2,25 @@
 
 #### SUMMARY
 
-> failed: 0, passed: , ignored:  of 102 tests.
+> failed: 12, passed: 90, ignored:  of 102 tests.
 
-|     Test      |  TP   | FP |
-|:-------------:|:-----:|:--:|
-|   Aliasing    | 11/11 | 1  |   
-|     Array     |  9/9  | 5  |   
-|     Basic     | 55/59 | 1  |  
-|  Collection   | 13/14 | 1  |
-| DataStructure |  5/5  | 0  |
-|    Factory    |  3/3  | 0  |  
-|     Inter     | 15/16 | 0  |  
-|    Session    |  3/3  | 0  |  
-| StrongUpdate  |  0/1  | 0  |   
-|   **TOTAL**   | /121  | 0  |
+|     Test      |   TP    | FP |
+|:-------------:|:-------:|:--:|
+|   Aliasing    |  11/11  | 1  |   
+|     Array     |   9/9   | 5  |   
+|     Basic     |  55/59  | 1  |  
+|  Collection   |  13/14  | 1  |
+| DataStructure |   5/5   | 0  |
+|    Factory    |   3/3   | 0  |  
+|     Inter     |  15/16  | 0  |  
+|    Session    |   3/3   | 0  |  
+| StrongUpdate  |   0/1   | 0  |   
+|   **TOTAL**   | 114/121 | 8  |
 
-- **Precision:**
-- **Recall:** 
-- **F-score:** 
-- **Pass Rate:** %
+- **Precision:** 0.93
+- **Recall:** 0.94
+- **F-score:** 0.94
+- **Pass Rate:** 88.24%
 
 
 #### SUMMARY
