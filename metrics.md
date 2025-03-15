@@ -80,23 +80,23 @@
 
 - **CollectionTest** - failed: 0, passed: 0, ignored: 0 of 14 tests.
 
-|      Test      | Expected | Actual | Status | TP  | FP  | Precision | Recall | F-score |
-|:--------------:|:--------:|:------:|:------:|:---:|:---:|:---------:|:------:|:-------:|
-|  Collection1   |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|  Collection2   |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|  Collection3   |    2     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|  Collection4   |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|  Collection5   |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|  Collection6   |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|  Collection7   |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|  Collection8   |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|  Collection9   |    0     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|  Collection10  |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|  Collection11  |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|  Collection12  |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|  Collection13  |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|  Collection14  |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|     TOTAL      |    14    |   0    |  0/14  |  0  |  0  |     -     |   -    |    -    |
+|      Test      | Expected | Actual | Status | TP | FP | Precision | Recall | F-score |
+|:--------------:|:--------:|:------:|:------:|:--:|:--:|:---------:|:------:|:-------:|
+|  Collection1   |    1     |   0    |   ✅    | 0  | 0  |     -     |   -    |    -    |
+|  Collection2   |    1     |   0    |   ✅    | 0  | 0  |     -     |   -    |    -    |
+|  Collection3   |    2     |   0    |   ✅    | 0  | 0  |     -     |   -    |    -    |
+|  Collection4   |    1     |   0    |   ✅    | 0  | 0  |     -     |   -    |    -    |
+|  Collection5   |    1     |   0    |   ✅    | 0  | 0  |     -     |   -    |    -    |
+|  Collection6   |    1     |   2    |   ❌    | 1  | 1  |     -     |   -    |    -    |
+|  Collection7   |    1     |   0    |   ✅    | 0  | 0  |     -     |   -    |    -    |
+|  Collection8   |    1     |   0    |   ❌    | 0  | 0  |     -     |   -    |    -    |
+|  Collection9   |    0     |   0    |   ✅    | 0  | 0  |     -     |   -    |    -    |
+|  Collection10  |    1     |   0    |   ✅    | 0  | 0  |     -     |   -    |    -    |
+|  Collection11  |    1     |   0    |   ✅    | 0  | 0  |     -     |   -    |    -    |
+|  Collection12  |    1     |   0    |   ✅    | 0  | 0  |     -     |   -    |    -    |
+|  Collection13  |    1     |   0    |   ✅    | 0  | 0  |     -     |   -    |    -    |
+|  Collection14  |    1     |   0    |   ✅    | 0  | 0  |     -     |   -    |    -    |
+|     TOTAL      |    14    |   0    |  0/14  | 0  | 0  |     -     |   -    |    -    |
 
 
 - **DataStructureTest** - failed: 0, passed: 0, ignored: 0 of 6 tests.
