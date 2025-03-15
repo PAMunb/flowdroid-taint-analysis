@@ -145,12 +145,12 @@
 
 - **SessionTest** - failed: 0, passed: 0, ignored: 0 of 3 tests.
 
-|      Test      | Expected | Actual | Status | TP  | FP  | Precision | Recall | F-score |
-|:--------------:|:--------:|:------:|:------:|:---:|:---:|:---------:|:------:|:-------:|
-|    Session1    |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|    Session2    |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|    Session3    |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|     TOTAL      |    3     |   0    |  0/3   |  0  |  0  |     -     |   -    |    -    |
+|      Test      | Expected | Actual | Status | TP | FP  | Precision | Recall | F-score |
+|:--------------:|:--------:|:------:|:------:|:--:|:---:|:---------:|:------:|:-------:|
+|    Session1    |    1     |   1    |   ✅    | 1  |  0  |     -     |   -    |    -    |
+|    Session2    |    1     |   1    |   ✅    | 1  |  0  |     -     |   -    |    -    |
+|    Session3    |    1     |   1    |   ✅    | 1  |  0  |     -     |   -    |    -    |
+|     TOTAL      |    3     |   3    |  0/3   | 3  |  0  |     -     |   -    |    -    |
 
 
 - **StrongUpdateTest** - failed: 0, passed: 0, ignored: 0 of 5 tests.
