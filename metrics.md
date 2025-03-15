@@ -1,4 +1,29 @@
-#### JSVFA metrics
+### JSVFA metrics Using Securibench V2
+
+#### SUMMARY
+
+> failed: 0, passed: , ignored:  of 102 tests.
+
+|     Test      |  TP   | FP |
+|:-------------:|:-----:|:--:|
+|   Aliasing    | 11/11 | 1  |   
+|     Array     |  9/9  | 5  |   
+|     Basic     | 55/59 | 1  |  
+|  Collection   | 13/14 | 1  |
+| DataStructure |  5/5  | 0  |
+|    Factory    |  3/3  | 0  |  
+|     Inter     | 15/16 | 0  |  
+|    Session    |  3/3  | 0  |  
+| StrongUpdate  |  0/1  | 0  |   
+|   **TOTAL**   | /121  | 0  |
+
+- **Precision:**
+- **Recall:** 
+- **F-score:** 
+- **Pass Rate:** %
+
+
+#### SUMMARY
 
 - **AliasingTest** - failed: 1, passed: 5, ignored: 0 of 6 test.
 
