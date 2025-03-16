@@ -1,16 +1,39 @@
 #### JSVFA metrics
 
+### SUMMARY
+
+> 00 tests.
+
+|      Test       |   Σ    | TP  |FP   |
+|:---------------:|:------:|:---:|:---:|
+|    Aliasing     |   6    | 0/0 |  0  |
+|      Array      |   10   | 0/0 |  0  |
+|      Basic      |   42   | 0/0 |  0  |
+|   Collection    |   15   | 0/0 |  0  |
+|  DataStructure  |   6    | 0/0 |  0  | 
+|     Factory     |   3    | 0/0 |  0  | 
+|      Inter      |   14   | 0/0 |  0  |
+|    ~~Pred~~     | ~~9~~  |  -  | 
+| ~~Reflection~~  | ~~4~~  |  -  | 
+| ~~Sanitizers~~  | ~~6~~  |  -  |
+|     Session     |   3    | 0/0 |  0  | 
+|  StrongUpdate   |   5    | 0/0 |  0  |
+|    **TOTAL**    |  104   | 0/0 |  0  |
+
+
+### DETAILS
+
 - **AliasingTest** - failed: 0, passed: 0, ignored: 0 of 6 test.
 
 |      Test      | Expected | Actual | Status | TP  | FP  | Precision | Recall | F-score |
 |:--------------:|:--------:|:------:|:------:|:---:|:---:|:---------:|:------:|:-------:|
 |   Aliasing1    |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|   Aliasing2    |    0     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
-|   Aliasing3    |    0     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
-|   Aliasing4    |    2     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
+|   Aliasing2    |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
+|   Aliasing3    |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
+|   Aliasing4    |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 |   Aliasing5    |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 |   Aliasing6    |    7     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
-|     TOTAL      |    11    |   0    |  0/6   |  0  |  0  |     -     |   -    |    -    |
+|     TOTAL      |    12    |   0    |  0/6   |  0  |  0  |     -     |   -    |    -    |
 
 - **ArraysTest** - failed: 0, passed: 0, ignored: 0 of 10 test.
 
