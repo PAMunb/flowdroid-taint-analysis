@@ -6,9 +6,9 @@
 
 |      Test       |   Σ    | TP  |FP   |
 |:---------------:|:------:|:---:|:---:|
-|    Aliasing     |   6    | 0/0 |  0  |
-|      Array      |   10   | 0/0 |  0  |
-|      Basic      |   42   | 0/0 |  0  |
+|    Aliasing     |   6    | 0/12 |  0  |
+|      Array      |   10   | 0/9 |  0  |
+|      Basic      |   42   | 0/60 |  0  |
 |   Collection    |   15   | 0/0 |  0  |
 |  DataStructure  |   6    | 0/0 |  0  | 
 |     Factory     |   3    | 0/0 |  0  | 
