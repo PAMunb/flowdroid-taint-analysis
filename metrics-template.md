@@ -52,7 +52,7 @@
 |     TOTAL      |    9     |   0    |  0/10  | 0  |  0  |     -     |   -    |    -    |
 
 
-- **BasicTest** - failed: 0, passed: 0, ignored: 0 of 41 test.
+- **BasicTest** - failed: 0, passed: 0, ignored: 0 of 42 test.
 
 |      Test      | Expected | Actual | Status | TP  | FP  | Precision | Recall | F-score |
 |:--------------:|:--------:|:------:|:------:|:---:|:---:|:---------:|:------:|:-------:|
@@ -83,10 +83,10 @@
 |    Basic25     |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 |    Basic26     |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 |    Basic27     |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
-|    Basic28     |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
+|    Basic28     |    2     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 |    Basic29     |    2     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 |    Basic30     |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
-|    Basic31     |    3     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
+|    Basic31     |    2     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 |    Basic32     |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 |    Basic33     |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 |    Basic34     |    2     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
@@ -95,10 +95,10 @@
 |    Basic37     |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 |    Basic38     |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 |    Basic39     |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
-|    Basic40     |   N/A    |  N/A   |  N/A   | N/A | N/A |    N/A    |  N/A   |   N/A   |
+|    Basic40     |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 |    Basic41     |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 |    Basic42     |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
-|     TOTAL      |    59    |   0    |  0/41  |  0  |  0  |     -     |   -    |    -    |
+|     TOTAL      |    60    |   0    |  0/42  |  0  |  0  |     -     |   -    |    -    |
 
 
 - **CollectionTest** - failed: 0, passed: 0, ignored: 0 of 14 tests.
