@@ -2,7 +2,7 @@
 
 ### SUMMARY
 
-> 104 tests.
+> failed: 0, passed: 0, ignored: 0 of 104 tests.
 
 |      Test       |   Σ    |  TP   | FP |
 |:---------------:|:------:|:-----:|:--:|
@@ -20,6 +20,10 @@
 |  StrongUpdate   |   5    |  0/1  | 0  |
 |    **TOTAL**    |  104   | 0/127 | 0  |
 
+- **Precision:** 0.0
+- **Recall:** 0.0
+- **F-score:** 0.0
+- **Pass Rate:** 0.0%
 
 ### DETAILS
 
