@@ -183,13 +183,13 @@
 |     TOTAL      |    3     |   4    |  2/3   | 3  | 1  |     -     |   -    |    -    |
 
 
-- **StrongUpdateTest** - failed: 0, passed: 0, ignored: 0 of 5 tests.
+- **StrongUpdateTest** - failed: 1, passed: 4, ignored: 0 of 5 tests.
 
 |      Test      | Expected | Actual | Status | TP  | FP  | Precision | Recall | F-score |
 |:--------------:|:--------:|:------:|:------:|:---:|:---:|:---------:|:------:|:-------:|
 | StrongUpdate1  |    0     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
 | StrongUpdate2  |    0     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
 | StrongUpdate3  |    0     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-| StrongUpdate4  |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
+| StrongUpdate4  |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 | StrongUpdate5  |    0     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|     TOTAL      |    1     |   0    |  0/5   |  0  |  0  |     -     |   -    |    -    |
+|     TOTAL      |    1     |   0    |  4/5   |  0  |  0  |     -     |   -    |    -    |
