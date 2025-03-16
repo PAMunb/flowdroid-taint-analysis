@@ -9,7 +9,7 @@
 |    Aliasing     |   6   | 11/11 | 1  |
 |      Array      |  10   |  9/9  | 5  |
 |      Basic      |  42   | 57/61 | 1  |
-|   Collection    |  14   | 0/14  | 0  |
+|   Collection    |  14   | 13/14 | 1  |
 |  DataStructure  |   6   |  0/5  | 0  | 
 |     Factory     |   3   |  0/3  | 0  | 
 |      Inter      |  14   | 0/16  | 0  |
