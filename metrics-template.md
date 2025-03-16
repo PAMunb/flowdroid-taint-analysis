@@ -16,7 +16,7 @@
 |    ~~Pred~~     | ~~9~~  |  -  | 
 | ~~Reflection~~  | ~~4~~  |  -  | 
 | ~~Sanitizers~~  | ~~6~~  |  -  |
-|     Session     |   3    | 0/0 |  0  | 
+|     Session     |   3    | 0/3 |  0  | 
 |  StrongUpdate   |   5    | 0/0 |  0  |
 |    **TOTAL**    |  104   | 0/0 |  0  |
 
