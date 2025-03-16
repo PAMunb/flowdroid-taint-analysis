@@ -10,7 +10,7 @@
 |      Array      |  10   |  9/9  | 5  |
 |      Basic      |  42   | 57/61 | 1  |
 |   Collection    |  14   | 13/14 | 1  |
-|  DataStructure  |   6   |  0/5  | 0  | 
+|  DataStructure  |   6   |  5/5  | 0  | 
 |     Factory     |   3   |  0/3  | 0  | 
 |      Inter      |  14   | 0/16  | 0  |
 |    ~~Pred~~     | ~~9~~ |   -   | -  |
@@ -129,17 +129,17 @@
 |     TOTAL      |    14    |   14   | 12/14  | 13 | 1  |     -     |   -    |    -    |
 
 
-- **DataStructureTest** - failed: 0, passed: 0, ignored: 0 of 6 tests.
+- **DataStructureTest** - failed: 0, passed: 6, ignored: 0 of 6 tests.
 
-|      Test      | Expected | Actual | Status | TP  | FP  | Precision | Recall | F-score |
-|:--------------:|:--------:|:------:|:------:|:---:|:---:|:---------:|:------:|:-------:|
-| DataStructure1 |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-| DataStructure2 |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-| DataStructure3 |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-| DataStructure4 |    0     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-| DataStructure5 |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-| DataStructure6 |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|     TOTAL      |    5     |   0    |  0/6   |  0  |  0  |     -     |   -    |    -    |
+|      Test      | Expected | Actual | Status | TP | FP  | Precision | Recall | F-score |
+|:--------------:|:--------:|:------:|:------:|:--:|:---:|:---------:|:------:|:-------:|
+| DataStructure1 |    1     |   1    |   ✅    | 1  |  0  |     -     |   -    |    -    |
+| DataStructure2 |    1     |   1    |   ✅    | 1  |  0  |     -     |   -    |    -    |
+| DataStructure3 |    1     |   1    |   ✅    | 1  |  0  |     -     |   -    |    -    |
+| DataStructure4 |    0     |   0    |   ✅    | 0  |  0  |     -     |   -    |    -    |
+| DataStructure5 |    1     |   1    |   ✅    | 1  |  0  |     -     |   -    |    -    |
+| DataStructure6 |    1     |   1    |   ✅    | 1  |  0  |     -     |   -    |    -    |
+|     TOTAL      |    5     |   5    |  0/6   | 5  |  0  |     -     |   -    |    -    |
 
 
 - **FactoryTest** - failed: 0, passed: 0, ignored: 0 of 3 tests.
