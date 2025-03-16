@@ -9,7 +9,7 @@
 |    Aliasing     |   6    | 0/12 |  0  |
 |      Array      |   10   | 0/9 |  0  |
 |      Basic      |   42   | 0/60 |  0  |
-|   Collection    |   15   | 0/0 |  0  |
+|   Collection    |   15   | 0/16 |  0  |
 |  DataStructure  |   6    | 0/0 |  0  | 
 |     Factory     |   3    | 0/0 |  0  | 
 |      Inter      |   14   | 0/0 |  0  |
@@ -101,7 +101,7 @@
 |     TOTAL      |    60    |   0    |  0/42  |  0  |  0  |     -     |   -    |    -    |
 
 
-- **CollectionTest** - failed: 0, passed: 0, ignored: 0 of 14 tests.
+- **CollectionTest** - failed: 0, passed: 0, ignored: 0 of 15 tests.
 
 |      Test      | Expected | Actual | Status | TP  | FP  | Precision | Recall | F-score |
 |:--------------:|:--------:|:------:|:------:|:---:|:---:|:---------:|:------:|:-------:|
@@ -113,13 +113,14 @@
 |  Collection6   |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 |  Collection7   |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 |  Collection8   |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
-|  Collection9   |    0     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
+|  Collection9   |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 |  Collection10  |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 |  Collection11  |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
+|  Collection11b |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 |  Collection12  |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 |  Collection13  |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 |  Collection14  |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
-|     TOTAL      |    14    |   0    |  0/14  |  0  |  0  |     -     |   -    |    -    |
+|     TOTAL      |    16    |   0    |  0/15  |  0  |  0  |     -     |   -    |    -    |
 
 
 - **DataStructureTest** - failed: 0, passed: 0, ignored: 0 of 6 tests.
