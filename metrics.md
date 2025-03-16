@@ -11,12 +11,12 @@
 |      Basic      |  42   | 57/61 | 1  |
 |   Collection    |  14   | 13/14 | 1  |
 |  DataStructure  |   6   |  5/5  | 0  | 
-|     Factory     |   3   |  3/3  | 0  | 
+|     Factory     |   3   |  3/3  | 1  | 
 |      Inter      |  14   | 15/16 | 0  |
 |    ~~Pred~~     | ~~9~~ |   -   | -  |
 | ~~Reflection~~  | ~~4~~ |   -   | -  |
 | ~~Sanitizers~~  | ~~6~~ |   -   | -  |
-|     Session     |   3   |  0/3  | 0  | 
+|     Session     |   3   |  3/3  | 0  | 
 |  StrongUpdate   |   5   |  0/1  | 0  |
 |    **TOTAL**    |  103  | 0/123 | 0  |
 
@@ -173,14 +173,14 @@
 |     TOTAL      |    16    |   15   | 13/14  | 15 |  0  |     -     |   -    |    -    |
 
 
-- **SessionTest** - failed: 0, passed: 0, ignored: 0 of 3 tests.
+- **SessionTest** - failed: 1, passed: 2, ignored: 0 of 3 tests.
 
-|      Test      | Expected | Actual | Status | TP  | FP  | Precision | Recall | F-score |
-|:--------------:|:--------:|:------:|:------:|:---:|:---:|:---------:|:------:|:-------:|
-|    Session1    |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|    Session2    |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|    Session3    |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|     TOTAL      |    3     |   0    |  0/3   |  0  |  0  |     -     |   -    |    -    |
+|      Test      | Expected | Actual | Status | TP | FP | Precision | Recall | F-score |
+|:--------------:|:--------:|:------:|:------:|:--:|:--:|:---------:|:------:|:-------:|
+|    Session1    |    1     |   1    |   ✅    | 1  | 0  |     -     |   -    |    -    |
+|    Session2    |    1     |   2    |   ❌    | 1  | 1  |     -     |   -    |    -    |
+|    Session3    |    1     |   1    |   ✅    | 1  | 0  |     -     |   -    |    -    |
+|     TOTAL      |    3     |   4    |  2/3   | 3  | 1  |     -     |   -    |    -    |
 
 
 - **StrongUpdateTest** - failed: 0, passed: 0, ignored: 0 of 5 tests.
