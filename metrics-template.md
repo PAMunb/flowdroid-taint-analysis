@@ -2,23 +2,23 @@
 
 ### SUMMARY
 
-> 00 tests.
+> 104 tests.
 
-|      Test       |   Σ    | TP  |FP   |
-|:---------------:|:------:|:---:|:---:|
-|    Aliasing     |   6    | 0/12 |  0  |
-|      Array      |   10   | 0/9 |  0  |
-|      Basic      |   42   | 0/60 |  0  |
-|   Collection    |   15   | 0/16 |  0  |
-|  DataStructure  |   6    | 0/6 |  0  | 
-|     Factory     |   3    | 0/3 |  0  | 
-|      Inter      |   14   | 0/17 |  0  |
-|    ~~Pred~~     | ~~9~~  |  -  | 
-| ~~Reflection~~  | ~~4~~  |  -  | 
-| ~~Sanitizers~~  | ~~6~~  |  -  |
-|     Session     |   3    | 0/3 |  0  | 
-|  StrongUpdate   |   5    | 0/1 |  0  |
-|    **TOTAL**    |  104   | 0/0 |  0  |
+|      Test       |   Σ    |  TP   | FP |
+|:---------------:|:------:|:-----:|:--:|
+|    Aliasing     |   6    | 0/12  | 0  |
+|      Array      |   10   |  0/9  | 0  |
+|      Basic      |   42   | 0/60  | 0  |
+|   Collection    |   15   | 0/16  | 0  |
+|  DataStructure  |   6    |  0/6  | 0  | 
+|     Factory     |   3    |  0/3  | 0  | 
+|      Inter      |   14   | 0/17  | 0  |
+|    ~~Pred~~     | ~~9~~  |   -   | -  |
+| ~~Reflection~~  | ~~4~~  |   -   | -  |
+| ~~Sanitizers~~  | ~~6~~  |   -   | -  |
+|     Session     |   3    |  0/3  | 0  | 
+|  StrongUpdate   |   5    |  0/1  | 0  |
+|    **TOTAL**    |  104   | 0/127 | 0  |
 
 
 ### DETAILS
