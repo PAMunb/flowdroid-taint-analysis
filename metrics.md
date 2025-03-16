@@ -139,7 +139,7 @@
 | DataStructure4 |    0     |   0    |   ✅    | 0  |  0  |     -     |   -    |    -    |
 | DataStructure5 |    1     |   1    |   ✅    | 1  |  0  |     -     |   -    |    -    |
 | DataStructure6 |    1     |   1    |   ✅    | 1  |  0  |     -     |   -    |    -    |
-|     TOTAL      |    5     |   5    |  0/6   | 5  |  0  |     -     |   -    |    -    |
+|     TOTAL      |    5     |   5    |  6/6   | 5  |  0  |     -     |   -    |    -    |
 
 
 - **FactoryTest** - failed: 0, passed: 3, ignored: 0 of 3 tests.
