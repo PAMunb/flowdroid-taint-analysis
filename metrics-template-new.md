@@ -8,7 +8,7 @@
 |:---------------:|:------:|:-----:|:--:|
 |    Aliasing     |   6    | 0/11  | 0  |
 |      Array      |   10   |  0/9  | 0  |
-|      Basic      |   42   | 0/60  | 0  |
+|      Basic      |   42   | 0/61  | 0  |
 |   Collection    |   15   | 0/16  | 0  |
 |  DataStructure  |   6    |  0/6  | 0  | 
 |     Factory     |   3    |  0/3  | 0  | 
@@ -102,7 +102,7 @@
 |    Basic40     |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 |    Basic41     |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 |    Basic42     |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
-|     TOTAL      |    60    |   0    |  0/42  |  0  |  0  |     -     |   -    |    -    |
+|     TOTAL      |    61    |   0    |  0/42  |  0  |  0  |     -     |   -    |    -    |
 
 
 - **CollectionTest** - failed: 0, passed: 0, ignored: 0 of 15 tests.
