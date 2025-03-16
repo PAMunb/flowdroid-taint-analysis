@@ -6,7 +6,7 @@
 
 |      Test       |   Σ   |  TP   | FP |
 |:---------------:|:-----:|:-----:|:--:|
-|    Aliasing     |   6   | 0/11  | 0  |
+|    Aliasing     |   6   | 11/11 | 1  |
 |      Array      |  10   |  0/9  | 0  |
 |      Basic      |  42   | 0/61  | 0  |
 |   Collection    |  14   | 0/14  | 0  |
@@ -29,17 +29,17 @@
 
 - ✅ : PASSED; ❌ : FAIL
 
-- **AliasingTest** - failed: 0, passed: 0, ignored: 0 of 6 test.
+- **AliasingTest** - failed: 1, passed: 5, ignored: 0 of 6 test.
 
-|      Test      | Expected | Actual | Status | TP  | FP | Precision | Recall | F-score |
-|:--------------:|:--------:|:------:|:------:|:---:|:--:|:---------:|:------:|:-------:|
-|   Aliasing1    |    1     |   0    |   ✅    |  0  | 0  |     -     |   -    |    -    |
-|   Aliasing2    |    0     |   0    |   ✅    |  0  | 0  |     -     |   -    |    -    |
-|   Aliasing3    |    0     |   1    |   ✅    |  0  | 1  |     -     |   -    |    -    |
-|   Aliasing4    |    2     |   0    |   ✅    |  0  | 0  |     -     |   -    |    -    |
-|   Aliasing5    |    1     |   0    |   ✅    |  0  | 0  |     -     |   -    |    -    |
-|   Aliasing6    |    7     |   0    |   ✅    |  0  | 0  |     -     |   -    |    -    |
-|     TOTAL      |    11    |   0    |  0/6   |  0  | 0  |     -     |   -    |    -    |
+|      Test      | Expected | Actual | Status | TP | FP | Precision | Recall | F-score |
+|:--------------:|:--------:|:------:|:------:|:--:|:--:|:---------:|:------:|:-------:|
+|   Aliasing1    |    1     |   1    |   ✅    | 1  | 0  |     -     |   -    |    -    |
+|   Aliasing2    |    0     |   0    |   ✅    | 0  | 0  |     -     |   -    |    -    |
+|   Aliasing3    |    0     |   1    |   ❌    | 0  | 1  |     -     |   -    |    -    |
+|   Aliasing4    |    2     |   2    |   ✅    | 2  | 0  |     -     |   -    |    -    |
+|   Aliasing5    |    1     |   1    |   ✅    | 1  | 0  |     -     |   -    |    -    |
+|   Aliasing6    |    7     |   7    |   ✅    | 7  | 0  |     -     |   -    |    -    |
+|     TOTAL      |    11    |   12   |  5/6   | 11 | 1  |     -     |   -    |    -    |
 
 - **ArraysTest** - failed: 0, passed: 0, ignored: 0 of 10 test.
 
