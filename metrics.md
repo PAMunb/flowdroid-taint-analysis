@@ -6,24 +6,24 @@
 
 |      Test       |    Σ    |   TP    | FP |
 |:---------------:|:-------:|:-------:|:--:|
-|    Aliasing     |   0/6   |  11/11  | 1  |
-|      Array      |  0/10   |   9/9   | 5  |
-|      Basic      |  0/42   |  57/61  | 1  |
-|   Collection    |  0/14   |  13/14  | 1  |
-|  DataStructure  |   0/6   |   5/5   | 0  | 
-|     Factory     |   0/3   |   3/3   | 1  | 
-|      Inter      |  0/14   |  15/16  | 0  |
+|    Aliasing     |   5/6   |  11/11  | 1  |
+|      Array      |  6/10   |   9/9   | 5  |
+|      Basic      |  39/42  |  57/61  | 1  |
+|   Collection    |  12/14  |  13/14  | 1  |
+|  DataStructure  |   6/6   |   5/5   | 0  | 
+|     Factory     |   3/3   |   3/3   | 1  | 
+|      Inter      |  13/14  |  15/16  | 0  |
 |    ~~Pred~~     | ~~0/9~~ |    -    | -  |
 | ~~Reflection~~  | ~~0/4~~ |    -    | -  |
 | ~~Sanitizers~~  | ~~0/6~~ |    -    | -  |
-|     Session     |   0/3   |   3/3   | 0  | 
-|  StrongUpdate   |   0/5   |   0/1   | 0  |
-|    **TOTAL**    |  0/103  | 116/123 | 9  |
+|     Session     |   2/3   |   3/3   | 0  | 
+|  StrongUpdate   |   4/5   |   0/1   | 0  |
+|    **TOTAL**    | 90/103  | 116/123 | 9  |
 
 - **Precision:** 0.93
 - **Recall:** 0.94
 - **F-score:** 0.94
-- **Pass Rate:** 0.0%
+- **Pass Rate:** 87.38%
 
 ### DETAILS
 
