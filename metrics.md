@@ -31,15 +31,15 @@
 
 - **AliasingTest** - failed: 0, passed: 0, ignored: 0 of 6 test.
 
-|      Test      | Expected | Actual | Status | TP  | FP  | Precision | Recall | F-score |
-|:--------------:|:--------:|:------:|:------:|:---:|:---:|:---------:|:------:|:-------:|
-|   Aliasing1    |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|   Aliasing2    |    0     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|   Aliasing3    |    0     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|   Aliasing4    |    2     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|   Aliasing5    |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|   Aliasing6    |    7     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|     TOTAL      |    11    |   0    |  0/6   |  0  |  0  |     -     |   -    |    -    |
+|      Test      | Expected | Actual | Status | TP  | FP | Precision | Recall | F-score |
+|:--------------:|:--------:|:------:|:------:|:---:|:--:|:---------:|:------:|:-------:|
+|   Aliasing1    |    1     |   0    |   ✅    |  0  | 0  |     -     |   -    |    -    |
+|   Aliasing2    |    0     |   0    |   ✅    |  0  | 0  |     -     |   -    |    -    |
+|   Aliasing3    |    0     |   1    |   ✅    |  0  | 1  |     -     |   -    |    -    |
+|   Aliasing4    |    2     |   0    |   ✅    |  0  | 0  |     -     |   -    |    -    |
+|   Aliasing5    |    1     |   0    |   ✅    |  0  | 0  |     -     |   -    |    -    |
+|   Aliasing6    |    7     |   0    |   ✅    |  0  | 0  |     -     |   -    |    -    |
+|     TOTAL      |    11    |   0    |  0/6   |  0  | 0  |     -     |   -    |    -    |
 
 - **ArraysTest** - failed: 0, passed: 0, ignored: 0 of 10 test.
 
