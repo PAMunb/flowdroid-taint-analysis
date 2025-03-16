@@ -4,21 +4,21 @@
 
 > failed: 0, passed: 0, ignored: 0 of 103 tests.
 
-|      Test       |   Σ   |  TP   | FP |
-|:---------------:|:-----:|:-----:|:--:|
-|    Aliasing     |   6   | 11/11 | 1  |
-|      Array      |  10   |  9/9  | 5  |
-|      Basic      |  42   | 57/61 | 1  |
-|   Collection    |  14   | 13/14 | 1  |
-|  DataStructure  |   6   |  5/5  | 0  | 
-|     Factory     |   3   |  3/3  | 1  | 
-|      Inter      |  14   | 15/16 | 0  |
-|    ~~Pred~~     | ~~9~~ |   -   | -  |
-| ~~Reflection~~  | ~~4~~ |   -   | -  |
-| ~~Sanitizers~~  | ~~6~~ |   -   | -  |
-|     Session     |   3   |  3/3  | 0  | 
-|  StrongUpdate   |   5   |  0/1  | 0  |
-|    **TOTAL**    |  103  | 0/123 | 0  |
+|      Test       |   Σ   |   TP    | FP |
+|:---------------:|:-----:|:-------:|:--:|
+|    Aliasing     |   6   |  11/11  | 1  |
+|      Array      |  10   |   9/9   | 5  |
+|      Basic      |  42   |  57/61  | 1  |
+|   Collection    |  14   |  13/14  | 1  |
+|  DataStructure  |   6   |   5/5   | 0  | 
+|     Factory     |   3   |   3/3   | 1  | 
+|      Inter      |  14   |  15/16  | 0  |
+|    ~~Pred~~     | ~~9~~ |    -    | -  |
+| ~~Reflection~~  | ~~4~~ |    -    | -  |
+| ~~Sanitizers~~  | ~~6~~ |    -    | -  |
+|     Session     |   3   |   3/3   | 0  | 
+|  StrongUpdate   |   5   |   0/1   | 0  |
+|    **TOTAL**    |  103  | 116/123 | 9  |
 
 - **Precision:** 0.0
 - **Recall:** 0.0
