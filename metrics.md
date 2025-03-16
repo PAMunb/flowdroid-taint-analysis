@@ -12,7 +12,7 @@
 |   Collection    |  14   | 13/14 | 1  |
 |  DataStructure  |   6   |  5/5  | 0  | 
 |     Factory     |   3   |  3/3  | 0  | 
-|      Inter      |  14   | 0/16  | 0  |
+|      Inter      |  14   | 15/16 | 0  |
 |    ~~Pred~~     | ~~9~~ |   -   | -  |
 | ~~Reflection~~  | ~~4~~ |   -   | -  |
 | ~~Sanitizers~~  | ~~6~~ |   -   | -  |
