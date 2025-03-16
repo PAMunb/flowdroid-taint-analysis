@@ -10,7 +10,7 @@
 |      Array      |   10   | 0/9 |  0  |
 |      Basic      |   42   | 0/60 |  0  |
 |   Collection    |   15   | 0/16 |  0  |
-|  DataStructure  |   6    | 0/0 |  0  | 
+|  DataStructure  |   6    | 0/6 |  0  | 
 |     Factory     |   3    | 0/0 |  0  | 
 |      Inter      |   14   | 0/0 |  0  |
 |    ~~Pred~~     | ~~9~~  |  -  | 
@@ -130,10 +130,10 @@
 | DataStructure1 |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 | DataStructure2 |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 | DataStructure3 |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
-| DataStructure4 |    0     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
+| DataStructure4 |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 | DataStructure5 |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 | DataStructure6 |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
-|     TOTAL      |    5     |   0    |  0/6   |  0  |  0  |     -     |   -    |    -    |
+|     TOTAL      |    6     |   0    |  0/6   |  0  |  0  |     -     |   -    |    -    |
 
 
 - **FactoryTest** - failed: 0, passed: 0, ignored: 0 of 3 tests.
