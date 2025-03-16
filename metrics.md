@@ -42,21 +42,21 @@
 |     TOTAL      |    11    |   12   |  5/6   | 11 | 1  |     -     |   -    |    -    |
 
 
-- **ArraysTest** - failed: 4, passed: 0, ignored: 0 of 10 test.
+- **ArraysTest** - failed: 4, passed: 6, ignored: 0 of 10 test.
 
 |      Test      | Expected | Actual | Status | TP | FP | Precision | Recall | F-score |
 |:--------------:|:--------:|:------:|:------:|:--:|:--:|:---------:|:------:|:-------:|
-|     Array1     |    1     |   0    |   ✅    | 0  | 0  |     -     |   -    |    -    |
+|     Array1     |    1     |   1    |   ✅    | 1  | 0  |     -     |   -    |    -    |
 |     Array2     |    1     |   3    |   ❌    | 1  | 2  |     -     |   -    |    -    |
-|     Array3     |    1     |   0    |   ✅    | 0  | 0  |     -     |   -    |    -    |
-|     Array4     |    1     |   0    |   ✅    | 0  | 0  |     -     |   -    |    -    |
+|     Array3     |    1     |   1    |   ✅    | 1  | 0  |     -     |   -    |    -    |
+|     Array4     |    1     |   1    |   ✅    | 1  | 0  |     -     |   -    |    -    |
 |     Array5     |    0     |   1    |   ❌    | 0  | 1  |     -     |   -    |    -    |
-|     Array6     |    1     |   0    |   ✅    | 0  | 0  |     -     |   -    |    -    |
-|     Array7     |    1     |   0    |   ✅    | 0  | 0  |     -     |   -    |    -    |
+|     Array6     |    1     |   1    |   ✅    | 1  | 0  |     -     |   -    |    -    |
+|     Array7     |    1     |   1    |   ✅    | 1  | 0  |     -     |   -    |    -    |
 |     Array8     |    1     |   2    |   ❌    | 1  | 1  |     -     |   -    |    -    |
-|     Array9     |    1     |   0    |   ✅    | 0  | 0  |     -     |   -    |    -    |
-|    Array10     |    1     |   2    |   ❌    | 2  | 1  |     -     |   -    |    -    |
-|     TOTAL      |    9     |   0    |  6/10  | 0  | 5  |     -     |   -    |    -    |
+|     Array9     |    1     |   1    |   ✅    | 1  | 0  |     -     |   -    |    -    |
+|    Array10     |    1     |   2    |   ❌    | 1  | 1  |     -     |   -    |    -    |
+|     TOTAL      |    9     |   14   |  6/10  | 9  | 5  |     -     |   -    |    -    |
 
 
 - **BasicTest** - failed: 0, passed: 0, ignored: 0 of 42 test.
