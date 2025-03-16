@@ -4,21 +4,21 @@
 
 > failed: 0, passed: 0, ignored: 0 of 104 tests.
 
-|      Test       |   Σ    |  TP   | FP |
-|:---------------:|:------:|:-----:|:--:|
-|    Aliasing     |   6    | 0/11  | 0  |
-|      Array      |   10   |  0/9  | 0  |
-|      Basic      |   42   | 0/61  | 0  |
-|   Collection    |   15   | 0/16  | 0  |
-|  DataStructure  |   6    |  0/6  | 0  | 
-|     Factory     |   3    |  0/3  | 0  | 
-|      Inter      |   14   | 0/17  | 0  |
-|    ~~Pred~~     | ~~9~~  |   -   | -  |
-| ~~Reflection~~  | ~~4~~  |   -   | -  |
-| ~~Sanitizers~~  | ~~6~~  |   -   | -  |
-|     Session     |   3    |  0/3  | 0  | 
-|  StrongUpdate   |   5    |  0/1  | 0  |
-|    **TOTAL**    |  104   | 0/127 | 0  |
+|      Test       |   Σ   |  TP   | FP |
+|:---------------:|:-----:|:-----:|:--:|
+|    Aliasing     |   6   | 0/11  | 0  |
+|      Array      |  10   |  0/9  | 0  |
+|      Basic      |  42   | 0/61  | 0  |
+|   Collection    |  14   | 0/14  | 0  |
+|  DataStructure  |   6   |  0/6  | 0  | 
+|     Factory     |   3   |  0/3  | 0  | 
+|      Inter      |  14   | 0/17  | 0  |
+|    ~~Pred~~     | ~~9~~ |   -   | -  |
+| ~~Reflection~~  | ~~4~~ |   -   | -  |
+| ~~Sanitizers~~  | ~~6~~ |   -   | -  |
+|     Session     |   3   |  0/3  | 0  | 
+|  StrongUpdate   |   5   |  0/1  | 0  |
+|    **TOTAL**    |  104  | 0/127 | 0  |
 
 - **Precision:** 0.0
 - **Recall:** 0.0
@@ -105,7 +105,7 @@
 |     TOTAL      |    61    |   0    |  0/42  |  0  |  0  |     -     |   -    |    -    |
 
 
-- **CollectionTest** - failed: 0, passed: 0, ignored: 0 of 15 tests.
+- **CollectionTest** - failed: 0, passed: 0, ignored: 0 of 14 tests.
 
 |      Test      | Expected | Actual | Status | TP  | FP  | Precision | Recall | F-score |
 |:--------------:|:--------:|:------:|:------:|:---:|:---:|:---------:|:------:|:-------:|
@@ -117,14 +117,13 @@
 |  Collection6   |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 |  Collection7   |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 |  Collection8   |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
-|  Collection9   |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
+|  Collection9   |    0     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 |  Collection10  |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 |  Collection11  |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
-|  Collection11b |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 |  Collection12  |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 |  Collection13  |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 |  Collection14  |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
-|     TOTAL      |    16    |   0    |  0/15  |  0  |  0  |     -     |   -    |    -    |
+|     TOTAL      |    14    |   0    |  0/14  |  0  |  0  |     -     |   -    |    -    |
 
 
 - **DataStructureTest** - failed: 0, passed: 0, ignored: 0 of 6 tests.
