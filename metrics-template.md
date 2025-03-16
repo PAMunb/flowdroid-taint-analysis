@@ -11,7 +11,7 @@
 |      Basic      |   42   | 0/60 |  0  |
 |   Collection    |   15   | 0/16 |  0  |
 |  DataStructure  |   6    | 0/6 |  0  | 
-|     Factory     |   3    | 0/0 |  0  | 
+|     Factory     |   3    | 0/3 |  0  | 
 |      Inter      |   14   | 0/0 |  0  |
 |    ~~Pred~~     | ~~9~~  |  -  | 
 | ~~Reflection~~  | ~~4~~  |  -  | 
