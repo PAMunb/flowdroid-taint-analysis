@@ -152,7 +152,7 @@
 |     TOTAL      |    3     |   3    |  3/3   | 3  |  0  |     -     |   -    |    -    |
 
 
-- **InterTest** - failed: 0, passed: 0, ignored: 0 of 14 tests
+- **InterTest** - failed: 1, passed: 0, ignored: 0 of 14 tests
 
 |      Test      | Expected | Actual | Status | TP  | FP  | Precision | Recall | F-score |
 |:--------------:|:--------:|:------:|:------:|:---:|:---:|:---------:|:------:|:-------:|
@@ -161,7 +161,7 @@
 |     Inter3     |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
 |     Inter4     |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
 |     Inter5     |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|     Inter6     |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
+|     Inter6     |    1     |   0    |   ❌    |  0  |  0  |     -     |   -    |    -    |
 |     Inter7     |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
 |     Inter8     |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
 |     Inter9     |    2     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
@@ -170,7 +170,7 @@
 |    Inter12     |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
 |    Inter13     |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
 |    Inter14     |    1     |   0    |   ✅    |  0  |  0  |     -     |   -    |    -    |
-|     TOTAL      |    16    |   0    |  0/14  |  0  |  0  |     -     |   -    |    -    |
+|     TOTAL      |    16    |   0    | 13/14  |  0  |  0  |     -     |   -    |    -    |
 
 
 - **SessionTest** - failed: 0, passed: 0, ignored: 0 of 3 tests.
