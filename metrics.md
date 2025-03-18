@@ -44,18 +44,18 @@
 
 > Metrics for Precision, Recall and F-score.
 
-|     Test      | Expected | Actual | TP | FP | Precision | Recall | F-score |
-|:-------------:|:--------:|:-------|:--:|:--:|:---------:|:------:|:-------:|
-|   Aliasing    |    11    | 0      | 0  | 0  |     0     |   0    |    0    |
-|     Array     |    9     | 0      | 0  | 0  |     0     |   0    |    0    |
-|     Basic     |    61    | 0      | 0  | 0  |     0     |   0    |    0    |
-|  Collection   |    14    | 0      | 0  | 0  |     0     |   0    |    0    |
-| DataStructure |    5     | 0      | 0  | 0  |     0     |   0    |    0    |
-|    Factory    |    3     | 0      | 0  | 0  |     0     |   0    |    0    |
-|     Inter     |    16    | 0      | 0  | 0  |     0     |   0    |    0    |
-|    Session    |    3     | 0      | 0  | 0  |     0     |   0    |    0    |
-| StrongUpdate  |    1     | 0      | 0  | 0  |     0     |   0    |    0    |
-|   **TOTAL**   |   123    | 0      | 0  | 0  |     0     |   0    |    0    |
+|     Test      | Expected | Actual | TP  | FP | Precision | Recall | F-score |
+|:-------------:|:--------:|:-------|:---:|:--:|:---------:|:------:|:-------:|
+|   Aliasing    |    11    | 12     | 11  | 1  |   0.92    |   1    |  0.96   |
+|     Array     |    9     | 14     |  9  | 5  |   0.64    |   1    |  0.78   |
+|     Basic     |    61    | 58     | 57  | 1  |   0.98    |  0.93  |  0.96   |
+|  Collection   |    14    | 14     | 13  | 1  |   0.93    |  0.93  |  0.93   |
+| DataStructure |    5     | 5      |  5  | 0  |     1     |   1    |    1    |
+|    Factory    |    3     | 3      |  3  | 0  |     1     |   1    |    1    |
+|     Inter     |    16    | 15     | 15  | 0  |     1     |  0.94  |  0.97   |
+|    Session    |    3     | 4      |  3  | 1  |   0.75    |   1    |  0.86   |
+| StrongUpdate  |    1     | 0      |  0  | 0  |     0     |   0    |    0    |
+|   **TOTAL**   |   123    | 125    | 116 | 9  |   0.93    |  0.94  |  87.38  |
 
 > Details
 
