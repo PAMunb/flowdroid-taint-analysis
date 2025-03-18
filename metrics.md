@@ -31,16 +31,16 @@
 
 |     Test      | Expected | Passed | Failed | Pass Rate |
 |:-------------:|:--------:|:------:|:------:|:---------:|
-|   Aliasing    |    6     |   0    |   0    |    0%     |    
-|     Array     |    10    |   0    |   0    |    0%     |   
-|     Basic     |    42    |   0    |   0    |    0%     |      
-|  Collection   |    14    |   0    |   0    |    0%     |   
-| DataStructure |    6     |   0    |   0    |    0%     |    
-|    Factory    |    3     |   0    |   0    |    0%     |    
-|     Inter     |    14    |   0    |   0    |    0%     |     
-|    Session    |    3     |   0    |   0    |    0%     |      
-| StrongUpdate  |    5     |   0    |   0    |    0%     |       
-|   **TOTAL**   |   103    |   0    |   0    |    0%     |
+|   Aliasing    |    6     |   5    |   1    |  83.33%   |    
+|     Array     |    10    |   6    |   4    |    60%    |   
+|     Basic     |    42    |   39   |   3    |  92.86%   |      
+|  Collection   |    14    |   12   |   2    |  85.71%   |   
+| DataStructure |    6     |   6    |   0    |   100%    |    
+|    Factory    |    3     |   3    |   0    |   100%    |    
+|     Inter     |    14    |   13   |   1    |  92.86%   |     
+|    Session    |    3     |   2    |   1    |  66.67%   |      
+| StrongUpdate  |    5     |   4    |   1    |    80%    |       
+|   **TOTAL**   |   103    |   90   |   13   |  87.38%   |
 
 > Metrics for Precision, Recall and F-score.
 
