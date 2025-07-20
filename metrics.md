@@ -25,39 +25,19 @@
 - **F-score:** git
 - **Pass Rate:** 87.38%
 
-### DETAILS
+| Test           | Found | Expected | Status | TP | FP | FN | Precision | Recall | F1   |
+|----------------|-------|----------|--------|----|----|----|-----------|--------|------|
+| Aliasing       | 11    | 11       | 4/6    | 9  | 1  | 1  | 0.90      | 0.90   | 0.90 |
+| Arrays         | 14    | 9        | 6/10   | 6  | 5  | 0  | 0.55      | 1.00   | 0.71 |
+| Basic          | 38    | 61       | 26/42  | 33 | 1  | 24 | 0.97      | 0.58   | 0.73 |
+| Collections    | 14    | 14       | 12/14  | 12 | 1  | 1  | 0.92      | 0.92   | 0.92 |
+| Datastructures | 5     | 5        | 4/6    | 3  | 1  | 1  | 0.75      | 0.75   | 0.75 |
+| Factories      | 1     | 3        | 1/3    | 1  | 0  | 2  | 1.00      | 0.33   | 0.50 |
+| Inter          | 15    | 16       | 13/14  | 15 | 0  | 1  | 1.00      | 0.94   | 0.97 |
+| Session        | 0     | 3        | 0/3    | 0  | 0  | 3  | 0.00      | 0.00   | 0.00 |
+| StrongUpdates  | 0     | 1        | 4/5    | 0  | 0  | 1  | 0.00      | 0.00   | 0.00 |
 
-> Metrics for Pass Rate
-
-|     Test      | Expected | Passed | Failed | Pass Rate |
-|:-------------:|:--------:|:------:|:------:|:---------:|
-|   Aliasing    |    6     |   5    |   1    |  83.33%   |    
-|     Array     |    10    |   6    |   4    |    60%    |   
-|     Basic     |    42    |   39   |   3    |  92.86%   |      
-|  Collection   |    14    |   12   |   2    |  85.71%   |   
-| DataStructure |    6     |   6    |   0    |   100%    |    
-|    Factory    |    3     |   3    |   0    |   100%    |    
-|     Inter     |    14    |   13   |   1    |  92.86%   |     
-|    Session    |    3     |   2    |   1    |  66.67%   |      
-| StrongUpdate  |    5     |   4    |   1    |    80%    |       
-|   **TOTAL**   |   103    |   90   |   13   |  87.38%   |
-
-> Metrics for Precision, Recall and F-score.
-
-|     Test      | Expected | Actual | TP  | FP | Precision | Recall | F-score |
-|:-------------:|:--------:|:-------|:---:|:--:|:---------:|:------:|:-------:|
-|   Aliasing    |    11    | 12     | 11  | 1  |   0.92    |   1    |  0.96   |
-|     Array     |    9     | 14     |  9  | 5  |   0.64    |   1    |  0.78   |
-|     Basic     |    61    | 58     | 57  | 1  |   0.98    |  0.93  |  0.96   |
-|  Collection   |    14    | 14     | 13  | 1  |   0.93    |  0.93  |  0.93   |
-| DataStructure |    5     | 5      |  5  | 0  |     1     |   1    |    1    |
-|    Factory    |    3     | 3      |  3  | 0  |     1     |   1    |    1    |
-|     Inter     |    16    | 15     | 15  | 0  |     1     |  0.94  |  0.97   |
-|    Session    |    3     | 4      |  3  | 1  |   0.75    |   1    |  0.86   |
-| StrongUpdate  |    1     | 0      |  0  | 0  |     0     |   0    |    0    |
-|   **TOTAL**   |   123    | 125    | 116 | 9  |   0.93    |  0.94  |  0.94  |
-
-> Details
+### Details
 
 - ✅ : PASSED; ❌ : FAIL
 
