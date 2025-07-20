@@ -175,14 +175,14 @@
 | TOTAL           | 5     | 5        | 4/6    | 3  | 1  | 1  | 0.75      | 0.75   | 0.75 |
 
 
-- **FactoryTest** - failed: 0, passed: 3, ignored: 0 of 3 tests.
+- **FactoryTest** - failed: 2, passed: 1 of 3 tests. `(33.33%)`
 
-|      Test      | Expected | Actual | Status | TP | FP  | Precision | Recall | F-score |
-|:--------------:|:--------:|:------:|:------:|:--:|:---:|:---------:|:------:|:-------:|
-|    Factory1    |    1     |   1    |   ✅    | 1  |  0  |     -     |   -    |    -    |
-|    Factory2    |    1     |   1    |   ✅    | 1  |  0  |     -     |   -    |    -    |
-|    Factory3    |    1     |   1    |   ✅    | 1  |  0  |     -     |   -    |    -    |
-|     TOTAL      |    3     |   3    |  3/3   | 3  |  0  |     1     |   1    |    1    |
+| Test       | Found | Expected | Status | TP | FP | FN | Precision | Recall | F1   |
+|------------|-------|----------|--------|----|----|----|-----------|--------|------|
+| Factories1 | 0     | 1        | FAIL   | 0  | 0  | 1  | 0.00      | 0.00   | 0.00 |
+| Factories2 | 0     | 1        | FAIL   | 0  | 0  | 1  | 0.00      | 0.00   | 0.00 |
+| Factories3 | 1     | 1        | PASS   | 1  | 0  | 0  | 1.00      | 1.00   | 1.00 |
+| TOTAL      | 1     | 3        | 1/3    | 1  | 0  | 2  | 1.00      | 0.33   | 0.50 |
 
 
 - **InterTest** - failed: 1, passed: 13, ignored: 0 of 14 tests
