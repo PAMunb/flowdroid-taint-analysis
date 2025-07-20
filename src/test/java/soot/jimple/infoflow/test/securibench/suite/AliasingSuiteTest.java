@@ -2,7 +2,7 @@ package soot.jimple.infoflow.test.securibench.suite;
 
 import soot.jimple.infoflow.test.securibench.SecuriBenchTestCase;
 
-public class AliasingTestSuite extends SecuriBenchTestCase {
+public class AliasingSuiteTest extends SecuriBenchTestCase {
 
     @Override
     public String basePackage() {
