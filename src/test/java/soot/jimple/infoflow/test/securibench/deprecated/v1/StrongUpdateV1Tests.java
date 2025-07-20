@@ -8,8 +8,7 @@
  * Contributors: Christian Fritz, Steven Arzt, Siegfried Rasthofer, Eric
  * Bodden, and others.
  ******************************************************************************/
-package soot.jimple.infoflow.test.securibench.v1;
-
+package soot.jimple.infoflow.test.securibench.deprecated.v1;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,62 +17,56 @@ import org.junit.Test;
 
 import soot.jimple.infoflow.Infoflow;
 
-public class AliasingV1Tests extends JUnitTests {
+public class StrongUpdateV1Tests extends JUnitTests {
 
 	@Test
-	public void aliasing1() {
+	public void strongupdates1() {
 		List<String> epoints = new ArrayList<String>();
-		epoints.add("<securibench.v1.micro.aliasing.Aliasing1: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>");	
-		Infoflow infoflow = initInfoflow(epoints);
-		infoflow.computeInfoflow(appPath, libPath, entryPointCreator, sources, sinks);
-		checkInfoflow(infoflow,1);
-	}
-
-	@Test
-	public void aliasing2() {
-		List<String> epoints = new ArrayList<String>();
-		epoints.add("<securibench.v1.micro.aliasing.Aliasing2: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>");	
+		epoints.add(
+				"<securibench.v1.micro.strong_updates.StrongUpdates1: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>");
 		Infoflow infoflow = initInfoflow(epoints);
 		infoflow.computeInfoflow(appPath, libPath, entryPointCreator, sources, sinks);
 		negativeCheckInfoflow(infoflow);
 	}
-	
+
 	@Test
-	public void aliasing3() {
+	public void strongupdates2() {
 		List<String> epoints = new ArrayList<String>();
-		epoints.add("<securibench.v1.micro.aliasing.Aliasing3: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>");	
+		epoints.add(
+				"<securibench.v1.micro.strong_updates.StrongUpdates2: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>");
 		Infoflow infoflow = initInfoflow(epoints);
 		infoflow.computeInfoflow(appPath, libPath, entryPointCreator, sources, sinks);
 		negativeCheckInfoflow(infoflow);
-		//INFO: this test has failed originally but I don't think there is a flow from source to sink - changed.
 	}
-	
+
 	@Test
-	public void aliasing4() {
+	public void strongupdates3() {
 		List<String> epoints = new ArrayList<String>();
-		epoints.add("<securibench.v1.micro.aliasing.Aliasing4: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>");	
+		epoints.add(
+				"<securibench.v1.micro.strong_updates.StrongUpdates3: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>");
 		Infoflow infoflow = initInfoflow(epoints);
 		infoflow.computeInfoflow(appPath, libPath, entryPointCreator, sources, sinks);
-		checkInfoflow(infoflow, 2);
+		negativeCheckInfoflow(infoflow);
 	}
-	
+
 	@Test
-	public void aliasing5() {
+	public void strongupdates4() {
 		List<String> epoints = new ArrayList<String>();
-		epoints.add("<securibench.v1.micro.aliasing.Aliasing5: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>");	
+		epoints.add(
+				"<securibench.v1.micro.strong_updates.StrongUpdates4: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>");
 		Infoflow infoflow = initInfoflow(epoints);
 		infoflow.computeInfoflow(appPath, libPath, entryPointCreator, sources, sinks);
 		checkInfoflow(infoflow, 1);
 	}
-	
+
 	@Test
-	public void aliasing6() {
+	public void strongupdates5() {
 		List<String> epoints = new ArrayList<String>();
-		epoints.add("<securibench.v1.micro.aliasing.Aliasing6: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>");	
+		epoints.add(
+				"<securibench.v1.micro.strong_updates.StrongUpdates5: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>");
 		Infoflow infoflow = initInfoflow(epoints);
 		infoflow.computeInfoflow(appPath, libPath, entryPointCreator, sources, sinks);
-		checkInfoflow(infoflow, 7);
+		negativeCheckInfoflow(infoflow);
 	}
 
 }
-

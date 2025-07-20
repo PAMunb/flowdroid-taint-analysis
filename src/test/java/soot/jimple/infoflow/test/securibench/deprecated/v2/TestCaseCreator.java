@@ -8,7 +8,7 @@
  * Contributors: Christian Fritz, Steven Arzt, Siegfried Rasthofer, Eric
  * Bodden, and others.
  ******************************************************************************/
-package soot.jimple.infoflow.test.securibench.v2;
+package soot.jimple.infoflow.test.securibench.deprecated.v2;
 
 public class TestCaseCreator {
 

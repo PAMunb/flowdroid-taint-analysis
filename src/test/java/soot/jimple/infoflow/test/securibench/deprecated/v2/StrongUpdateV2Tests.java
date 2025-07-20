@@ -8,23 +8,23 @@
  * Contributors: Christian Fritz, Steven Arzt, Siegfried Rasthofer, Eric
  * Bodden, and others.
  ******************************************************************************/
-package soot.jimple.infoflow.test.securibench.v1;
+package soot.jimple.infoflow.test.securibench.deprecated.v2;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.Test;
 
-import soot.jimple.infoflow.Infoflow;
+import soot.jimple.infoflow.IInfoflow;
 
-public class StrongUpdateV1Tests extends JUnitTests {
+public class StrongUpdateV2Tests extends JUnitTests {
 
 	@Test
 	public void strongupdates1() {
 		List<String> epoints = new ArrayList<String>();
 		epoints.add(
-				"<securibench.v1.micro.strong_updates.StrongUpdates1: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>");
-		Infoflow infoflow = initInfoflow(epoints);
+				"<securibench.v2.micro.strong_updates.StrongUpdates1: void doGet(jakarta.servlet.http.HttpServletRequest,jakarta.servlet.http.HttpServletResponse)>");
+		IInfoflow infoflow = initInfoflow(epoints);
 		infoflow.computeInfoflow(appPath, libPath, entryPointCreator, sources, sinks);
 		negativeCheckInfoflow(infoflow);
 	}
@@ -33,8 +33,8 @@ public class StrongUpdateV1Tests extends JUnitTests {
 	public void strongupdates2() {
 		List<String> epoints = new ArrayList<String>();
 		epoints.add(
-				"<securibench.v1.micro.strong_updates.StrongUpdates2: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>");
-		Infoflow infoflow = initInfoflow(epoints);
+				"<securibench.v2.micro.strong_updates.StrongUpdates2: void doGet(jakarta.servlet.http.HttpServletRequest,jakarta.servlet.http.HttpServletResponse)>");
+		IInfoflow infoflow = initInfoflow(epoints);
 		infoflow.computeInfoflow(appPath, libPath, entryPointCreator, sources, sinks);
 		negativeCheckInfoflow(infoflow);
 	}
@@ -43,8 +43,8 @@ public class StrongUpdateV1Tests extends JUnitTests {
 	public void strongupdates3() {
 		List<String> epoints = new ArrayList<String>();
 		epoints.add(
-				"<securibench.v1.micro.strong_updates.StrongUpdates3: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>");
-		Infoflow infoflow = initInfoflow(epoints);
+				"<securibench.v2.micro.strong_updates.StrongUpdates3: void doGet(jakarta.servlet.http.HttpServletRequest,jakarta.servlet.http.HttpServletResponse)>");
+		IInfoflow infoflow = initInfoflow(epoints);
 		infoflow.computeInfoflow(appPath, libPath, entryPointCreator, sources, sinks);
 		negativeCheckInfoflow(infoflow);
 	}
@@ -53,8 +53,8 @@ public class StrongUpdateV1Tests extends JUnitTests {
 	public void strongupdates4() {
 		List<String> epoints = new ArrayList<String>();
 		epoints.add(
-				"<securibench.v1.micro.strong_updates.StrongUpdates4: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>");
-		Infoflow infoflow = initInfoflow(epoints);
+				"<securibench.v2.micro.strong_updates.StrongUpdates4: void doGet(jakarta.servlet.http.HttpServletRequest,jakarta.servlet.http.HttpServletResponse)>");
+		IInfoflow infoflow = initInfoflow(epoints);
 		infoflow.computeInfoflow(appPath, libPath, entryPointCreator, sources, sinks);
 		checkInfoflow(infoflow, 1);
 	}
@@ -63,8 +63,8 @@ public class StrongUpdateV1Tests extends JUnitTests {
 	public void strongupdates5() {
 		List<String> epoints = new ArrayList<String>();
 		epoints.add(
-				"<securibench.v1.micro.strong_updates.StrongUpdates5: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>");
-		Infoflow infoflow = initInfoflow(epoints);
+				"<securibench.v2.micro.strong_updates.StrongUpdates5: void doGet(jakarta.servlet.http.HttpServletRequest,jakarta.servlet.http.HttpServletResponse)>");
+		IInfoflow infoflow = initInfoflow(epoints);
 		infoflow.computeInfoflow(appPath, libPath, entryPointCreator, sources, sinks);
 		negativeCheckInfoflow(infoflow);
 	}

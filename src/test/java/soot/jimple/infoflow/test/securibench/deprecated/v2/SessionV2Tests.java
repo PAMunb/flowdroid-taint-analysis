@@ -8,43 +8,42 @@
  * Contributors: Christian Fritz, Steven Arzt, Siegfried Rasthofer, Eric
  * Bodden, and others.
  ******************************************************************************/
-package soot.jimple.infoflow.test.securibench.v1;
+package soot.jimple.infoflow.test.securibench.deprecated.v2;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import org.junit.Test;
 
-import soot.jimple.infoflow.Infoflow;
+import soot.jimple.infoflow.IInfoflow;
 
-public class FactoryV1Tests extends JUnitTests {
-
+public class SessionV2Tests extends JUnitTests {
 	@Test
-	public void factories1() {
+	public void session1() {
 		List<String> epoints = new ArrayList<String>();
 		epoints.add(
-				"<securibench.v1.micro.factories.Factories1: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>");
-		Infoflow infoflow = initInfoflow(epoints);
+				"<securibench.v2.micro.session.Session1: void doGet(jakarta.servlet.http.HttpServletRequest,jakarta.servlet.http.HttpServletResponse)>");
+		IInfoflow infoflow = initInfoflow(epoints);
 		infoflow.computeInfoflow(appPath, libPath, entryPointCreator, sources, sinks);
 		checkInfoflow(infoflow, 1);
 	}
 
 	@Test
-	public void factories2() {
+	public void session2() {
 		List<String> epoints = new ArrayList<String>();
 		epoints.add(
-				"<securibench.v1.micro.factories.Factories2: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>");
-		Infoflow infoflow = initInfoflow(epoints);
+				"<securibench.v2.micro.session.Session2: void doGet(jakarta.servlet.http.HttpServletRequest,jakarta.servlet.http.HttpServletResponse)>");
+		IInfoflow infoflow = initInfoflow(epoints);
 		infoflow.computeInfoflow(appPath, libPath, entryPointCreator, sources, sinks);
 		checkInfoflow(infoflow, 1);
 	}
 
 	@Test
-	public void factories3() {
+	public void session3() {
 		List<String> epoints = new ArrayList<String>();
 		epoints.add(
-				"<securibench.v1.micro.factories.Factories3: void doGet(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)>");
-		Infoflow infoflow = initInfoflow(epoints);
+				"<securibench.v2.micro.session.Session3: void doGet(jakarta.servlet.http.HttpServletRequest,jakarta.servlet.http.HttpServletResponse)>");
+		IInfoflow infoflow = initInfoflow(epoints);
 		infoflow.computeInfoflow(appPath, libPath, entryPointCreator, sources, sinks);
 		checkInfoflow(infoflow, 1);
 	}
