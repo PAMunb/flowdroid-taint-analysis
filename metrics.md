@@ -2,28 +2,7 @@
 
 ### SUMMARY
 
-> failed: 0, passed: 0, ignored: 0 of 103 tests.
-
-|      Test       |    Σ    |   TP    | FP |
-|:---------------:|:-------:|:-------:|:--:|
-|    Aliasing     |   5/6   |  11/11  | 1  |
-|      Array      |  6/10   |   9/9   | 5  |
-|      Basic      |  39/42  |  57/61  | 1  |
-|   Collection    |  12/14  |  13/14  | 1  |
-|  DataStructure  |   6/6   |   5/5   | 0  | 
-|     Factory     |   3/3   |   3/3   | 1  | 
-|      Inter      |  13/14  |  15/16  | 0  |
-|    ~~Pred~~     | ~~0/9~~ |    -    | -  |
-| ~~Reflection~~  | ~~0/4~~ |    -    | -  |
-| ~~Sanitizers~~  | ~~0/6~~ |    -    | -  |
-|     Session     |   2/3   |   3/3   | 0  | 
-|  StrongUpdate   |   4/5   |   0/1   | 0  |
-|    **TOTAL**    | 90/103  | 116/123 | 9  |
-
-- **Precision:** 0.93
-- **Recall:** 0.94
-- **F-score:** git
-- **Pass Rate:** 87.38%
+failed: 33, passed: 70 of 103 tests. `(67.96%)`
 
 | Test           | Found | Expected | Status | TP | FP | FN | Precision | Recall | F1   |
 |----------------|-------|----------|--------|----|----|----|-----------|--------|------|
@@ -36,6 +15,7 @@
 | Inter          | 15    | 16       | 13/14  | 15 | 0  | 1  | 1.00      | 0.94   | 0.97 |
 | Session        | 0     | 3        | 0/3    | 0  | 0  | 3  | 0.00      | 0.00   | 0.00 |
 | StrongUpdates  | 0     | 1        | 4/5    | 0  | 0  | 1  | 0.00      | 0.00   | 0.00 |
+| TOTAL          | 98    | 123      | 70/103 | 79 | 9  | 34 | 0.90      | 0.70   | 0.79 |
 
 ### Details
 
