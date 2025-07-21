@@ -2,7 +2,7 @@
 
 ### SUMMARY
 
-failed: 33, passed: 70 of 103 tests. `(67.96%)`
+> failed: 33, passed: 70 of 103 tests. `(67.96%)`
 
 | Test           | Found | Expected | Status | TP | FP | FN | Precision | Recall | F1   |
 |----------------|-------|----------|--------|----|----|----|-----------|--------|------|
@@ -16,6 +16,27 @@ failed: 33, passed: 70 of 103 tests. `(67.96%)`
 | Session        | 0     | 3        | 0/3    | 0  | 0  | 3  | 0.00      | 0.00   | 0.00 |
 | StrongUpdates  | 0     | 1        | 4/5    | 0  | 0  | 1  | 0.00      | 0.00   | 0.00 |
 | TOTAL          | 98    | 123      | 70/103 | 79 | 9  | 34 | 0.90      | 0.70   | 0.79 |
+
+
+According to Flowdroid Paper (https://www.bodden.de/pubs/far+14flowdroid.pdf), they computed the next values.
+
+> failed: 0, passed: 0, ignored: 0 of 103 tests.
+
+|      Test      |   TP    | FP |
+|:--------------:|:-------:|:--:|
+|    Aliasing    |  11/11  | 0  |
+|     Array      |   9/9   | 6  |
+|     Basic      |  58/60  | 0  |
+|   Collection   |  14/14  | 3  |
+| DataStructure  |   5/5   | 0  | 
+|    Factory     |   3/3   | 0  | 
+|     Inter      |  14/16  | 0  |
+|    ~~Pred~~    |    -    | -  |
+| ~~Reflection~~ |    -    | -  |
+| ~~Sanitizers~~ |    -    | -  |
+|    Session     |   3/3   | 0  | 
+|  StrongUpdate  |   0/0   | 0  |
+|   **TOTAL**    | 117/121 | 9  |
 
 ### Details
 
