@@ -2,7 +2,7 @@
 
 ### SUMMARY
 
-> failed: 33, passed: 70 of 103 tests. `(67.96%)`
+> failed: 36, passed: 67 of 103 tests. `(65.05%)`
 
 | Test           | Found | Expected | Status | TP | FP | FN | Precision | Recall | F1   |
 |----------------|-------|----------|--------|----|----|----|-----------|--------|------|
@@ -15,7 +15,7 @@
 | Inter          | 15    | 18       | 11/14  | 13 | 0  | 3  | 1.00      | 0.81   | 0.90 |
 | Session        | 0     | 3        | 0/3    | 0  | 0  | 3  | 0.00      | 0.00   | 0.00 |
 | StrongUpdates  | 0     | 1        | 4/5    | 0  | 0  | 1  | 0.00      | 0.00   | 0.00 |
-| TOTAL          | 
+| TOTAL          | 98    | 126      | 67/103 | 77 | 9  | 37 | 0.90      | 0.68   | 0.77 |
 
 
 According to Flowdroid Paper (https://www.bodden.de/pubs/far+14flowdroid.pdf), they computed the next values.
