@@ -9,13 +9,13 @@
 | Aliasing       | 11    | 11       | 4/6    | 9  | 1  | 1  | 0.90      | 0.90   | 0.90 |
 | Arrays         | 14    | 9        | 6/10   | 6  | 5  | 0  | 0.55      | 1.00   | 0.71 |
 | Basic          | 38    | 61       | 26/42  | 33 | 1  | 24 | 0.97      | 0.58   | 0.73 |
-| Collections    | 14    | 14       | 12/14  | 12 | 1  | 1  | 0.92      | 0.92   | 0.92 |
+| Collections    | 14    | 15       | 11/14  | 12 | 1  | 2  | 0.92      | 0.86   | 0.89 |
 | Datastructures | 5     | 5        | 4/6    | 3  | 1  | 1  | 0.75      | 0.75   | 0.75 |
 | Factories      | 1     | 3        | 1/3    | 1  | 0  | 2  | 1.00      | 0.33   | 0.50 |
-| Inter          | 15    | 16       | 13/14  | 15 | 0  | 1  | 1.00      | 0.94   | 0.97 |
+| Inter          | 
 | Session        | 0     | 3        | 0/3    | 0  | 0  | 3  | 0.00      | 0.00   | 0.00 |
 | StrongUpdates  | 0     | 1        | 4/5    | 0  | 0  | 1  | 0.00      | 0.00   | 0.00 |
-| TOTAL          | 98    | 123      | 70/103 | 79 | 9  | 34 | 0.90      | 0.70   | 0.79 |
+| TOTAL          | 
 
 
 According to Flowdroid Paper (https://www.bodden.de/pubs/far+14flowdroid.pdf), they computed the next values.
@@ -122,7 +122,7 @@ According to Flowdroid Paper (https://www.bodden.de/pubs/far+14flowdroid.pdf), t
 | TOTAL   | 38    | 61       | 26/42  | 33 | 1  | 24 | 0.97      | 0.58   | 0.73 |
 
 
-- **CollectionTest** - failed: 2, passed: 12 of 14 tests. `(85.71%)`
+- **CollectionTest** - failed: 3, passed: 11 of 14 tests. `(78.57%)`
 
 | Test          | Found | Expected | Status | TP | FP | FN | Precision | Recall | F1   |
 |---------------|-------|----------|--------|----|----|----|-----------|--------|------|
@@ -134,13 +134,13 @@ According to Flowdroid Paper (https://www.bodden.de/pubs/far+14flowdroid.pdf), t
 | Collections6  | 2     | 1        | ❌      | 0  | 1  | 0  | 0.00      | 0.00   | 0.00 |
 | Collections7  | 1     | 1        | ✅      | 1  | 0  | 0  | 1.00      | 1.00   | 1.00 |
 | Collections8  | 0     | 1        | ❌      | 0  | 0  | 1  | 0.00      | 0.00   | 0.00 |
-| Collections9  | 0     | 0        | ✅      | 0  | 0  | 0  | 0.00      | 0.00   | 0.00 |
+| Collections9  | 0     | 1        | ❌      | 0  | 0  | 1  | 0.00      | 0.00   | 0.00 |
 | Collections10 | 1     | 1        | ✅      | 1  | 0  | 0  | 1.00      | 1.00   | 1.00 |
 | Collections11 | 1     | 1        | ✅      | 1  | 0  | 0  | 1.00      | 1.00   | 1.00 |
 | Collections12 | 1     | 1        | ✅      | 1  | 0  | 0  | 1.00      | 1.00   | 1.00 |
 | Collections13 | 1     | 1        | ✅      | 1  | 0  | 0  | 1.00      | 1.00   | 1.00 |
 | Collections14 | 1     | 1        | ✅      | 1  | 0  | 0  | 1.00      | 1.00   | 1.00 |
-| TOTAL         | 14    | 14       | 12/14  | 12 | 1  | 1  | 0.92      | 0.92   | 0.92 |
+| TOTAL         | 14    | 15       | 11/14  | 12 | 1  | 2  | 0.92      | 0.86   | 0.89 |
 
 
 - **DataStructureTest** - failed: 2, passed: 4 of 6 tests. `(66.67%)`
