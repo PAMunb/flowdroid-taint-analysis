@@ -1,4 +1,4 @@
-#### JSVFA metrics
+#### FLOWDROID metrics
 
 ### SUMMARY
 
@@ -38,7 +38,7 @@ According to Flowdroid Paper (https://www.bodden.de/pubs/far+14flowdroid.pdf), t
 |  StrongUpdate  |   0/0   | 0  |
 |   **TOTAL**    | 117/121 | 9  |
 
-### Details
+### DETAILS
 
 - ✅ : PASSED; ❌ : FAIL
 
